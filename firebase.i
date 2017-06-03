@@ -2,6 +2,7 @@
 
 %{
 #include "firebase/database.h"
+#include "firebase/auth.h"
 %}
 
 %include "std_string.i"
@@ -18,3 +19,10 @@
 %include "firebase/database/query.h"
 %include "firebase/database/database_reference.h"
 %include "firebase/database.h"
+%include "firebase/auth/credential.h"
+%include "firebase/auth/types.h"
+%include "firebase/auth/user.h"
+
+// TODO: should fix this
+#define DOXYGEN
+%include "firebase/auth.h"
