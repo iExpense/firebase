@@ -4,6 +4,7 @@
 #include "firebase/database.h"
 %}
 
+%include "std_string.i"
 %include "firebase/internal/common.h"
 %include "firebase/variant.h"
 %include "firebase/database/common.h"
