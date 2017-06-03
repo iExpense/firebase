@@ -251,11 +251,14 @@ static void* Swig_malloc(int c) {
 
 #include "firebase/database.h"
 
+
+#include <string>
+
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-void _wrap_Swig_free_firebase_e442d670bd0d5df6(void *_swig_go_0) {
+void _wrap_Swig_free_firebase_e8df7fbc24f322ca(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -265,7 +268,7 @@ void _wrap_Swig_free_firebase_e442d670bd0d5df6(void *_swig_go_0) {
 }
 
 
-void *_wrap_Swig_malloc_firebase_e442d670bd0d5df6(intgo _swig_go_0) {
+void *_wrap_Swig_malloc_firebase_e8df7fbc24f322ca(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -278,7 +281,7 @@ void *_wrap_Swig_malloc_firebase_e442d670bd0d5df6(intgo _swig_go_0) {
 }
 
 
-intgo _wrap_kTypeNull_Variant_firebase_e442d670bd0d5df6() {
+intgo _wrap_kTypeNull_Variant_firebase_e8df7fbc24f322ca() {
   firebase::Variant::Type result;
   intgo _swig_go_result;
   
@@ -290,7 +293,7 @@ intgo _wrap_kTypeNull_Variant_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kTypeInt64_Variant_firebase_e442d670bd0d5df6() {
+intgo _wrap_kTypeInt64_Variant_firebase_e8df7fbc24f322ca() {
   firebase::Variant::Type result;
   intgo _swig_go_result;
   
@@ -302,7 +305,7 @@ intgo _wrap_kTypeInt64_Variant_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kTypeDouble_Variant_firebase_e442d670bd0d5df6() {
+intgo _wrap_kTypeDouble_Variant_firebase_e8df7fbc24f322ca() {
   firebase::Variant::Type result;
   intgo _swig_go_result;
   
@@ -314,7 +317,7 @@ intgo _wrap_kTypeDouble_Variant_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kTypeBool_Variant_firebase_e442d670bd0d5df6() {
+intgo _wrap_kTypeBool_Variant_firebase_e8df7fbc24f322ca() {
   firebase::Variant::Type result;
   intgo _swig_go_result;
   
@@ -326,7 +329,7 @@ intgo _wrap_kTypeBool_Variant_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kTypeStaticString_Variant_firebase_e442d670bd0d5df6() {
+intgo _wrap_kTypeStaticString_Variant_firebase_e8df7fbc24f322ca() {
   firebase::Variant::Type result;
   intgo _swig_go_result;
   
@@ -338,7 +341,7 @@ intgo _wrap_kTypeStaticString_Variant_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kTypeMutableString_Variant_firebase_e442d670bd0d5df6() {
+intgo _wrap_kTypeMutableString_Variant_firebase_e8df7fbc24f322ca() {
   firebase::Variant::Type result;
   intgo _swig_go_result;
   
@@ -350,7 +353,7 @@ intgo _wrap_kTypeMutableString_Variant_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kTypeVector_Variant_firebase_e442d670bd0d5df6() {
+intgo _wrap_kTypeVector_Variant_firebase_e8df7fbc24f322ca() {
   firebase::Variant::Type result;
   intgo _swig_go_result;
   
@@ -362,7 +365,7 @@ intgo _wrap_kTypeVector_Variant_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kTypeMap_Variant_firebase_e442d670bd0d5df6() {
+intgo _wrap_kTypeMap_Variant_firebase_e8df7fbc24f322ca() {
   firebase::Variant::Type result;
   intgo _swig_go_result;
   
@@ -374,7 +377,7 @@ intgo _wrap_kTypeMap_Variant_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kTypeStaticBlob_Variant_firebase_e442d670bd0d5df6() {
+intgo _wrap_kTypeStaticBlob_Variant_firebase_e8df7fbc24f322ca() {
   firebase::Variant::Type result;
   intgo _swig_go_result;
   
@@ -386,7 +389,7 @@ intgo _wrap_kTypeStaticBlob_Variant_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kTypeMutableBlob_Variant_firebase_e442d670bd0d5df6() {
+intgo _wrap_kTypeMutableBlob_Variant_firebase_e8df7fbc24f322ca() {
   firebase::Variant::Type result;
   intgo _swig_go_result;
   
@@ -398,7 +401,7 @@ intgo _wrap_kTypeMutableBlob_Variant_firebase_e442d670bd0d5df6() {
 }
 
 
-firebase::Variant *_wrap_new_Variant__SWIG_0_firebase_e442d670bd0d5df6() {
+firebase::Variant *_wrap_new_Variant__SWIG_0_firebase_e8df7fbc24f322ca() {
   firebase::Variant *result = 0 ;
   firebase::Variant *_swig_go_result;
   
@@ -409,7 +412,7 @@ firebase::Variant *_wrap_new_Variant__SWIG_0_firebase_e442d670bd0d5df6() {
 }
 
 
-firebase::Variant *_wrap_new_Variant__SWIG_1_firebase_e442d670bd0d5df6(int64_t *_swig_go_0) {
+firebase::Variant *_wrap_new_Variant__SWIG_1_firebase_e8df7fbc24f322ca(int64_t *_swig_go_0) {
   int64_t arg1 ;
   int64_t *argp1 ;
   firebase::Variant *result = 0 ;
@@ -429,7 +432,7 @@ firebase::Variant *_wrap_new_Variant__SWIG_1_firebase_e442d670bd0d5df6(int64_t *
 }
 
 
-firebase::Variant *_wrap_new_Variant__SWIG_2_firebase_e442d670bd0d5df6(intgo _swig_go_0) {
+firebase::Variant *_wrap_new_Variant__SWIG_2_firebase_e8df7fbc24f322ca(intgo _swig_go_0) {
   int arg1 ;
   firebase::Variant *result = 0 ;
   firebase::Variant *_swig_go_result;
@@ -442,7 +445,7 @@ firebase::Variant *_wrap_new_Variant__SWIG_2_firebase_e442d670bd0d5df6(intgo _sw
 }
 
 
-firebase::Variant *_wrap_new_Variant__SWIG_3_firebase_e442d670bd0d5df6(double _swig_go_0) {
+firebase::Variant *_wrap_new_Variant__SWIG_3_firebase_e8df7fbc24f322ca(double _swig_go_0) {
   double arg1 ;
   firebase::Variant *result = 0 ;
   firebase::Variant *_swig_go_result;
@@ -455,7 +458,7 @@ firebase::Variant *_wrap_new_Variant__SWIG_3_firebase_e442d670bd0d5df6(double _s
 }
 
 
-firebase::Variant *_wrap_new_Variant__SWIG_4_firebase_e442d670bd0d5df6(float _swig_go_0) {
+firebase::Variant *_wrap_new_Variant__SWIG_4_firebase_e8df7fbc24f322ca(float _swig_go_0) {
   float arg1 ;
   firebase::Variant *result = 0 ;
   firebase::Variant *_swig_go_result;
@@ -468,7 +471,7 @@ firebase::Variant *_wrap_new_Variant__SWIG_4_firebase_e442d670bd0d5df6(float _sw
 }
 
 
-firebase::Variant *_wrap_new_Variant__SWIG_5_firebase_e442d670bd0d5df6(bool _swig_go_0) {
+firebase::Variant *_wrap_new_Variant__SWIG_5_firebase_e8df7fbc24f322ca(bool _swig_go_0) {
   bool arg1 ;
   firebase::Variant *result = 0 ;
   firebase::Variant *_swig_go_result;
@@ -481,7 +484,7 @@ firebase::Variant *_wrap_new_Variant__SWIG_5_firebase_e442d670bd0d5df6(bool _swi
 }
 
 
-firebase::Variant *_wrap_new_Variant__SWIG_6_firebase_e442d670bd0d5df6(_gostring_ _swig_go_0) {
+firebase::Variant *_wrap_new_Variant__SWIG_6_firebase_e8df7fbc24f322ca(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   firebase::Variant *result = 0 ;
   firebase::Variant *_swig_go_result;
@@ -499,7 +502,7 @@ firebase::Variant *_wrap_new_Variant__SWIG_6_firebase_e442d670bd0d5df6(_gostring
 }
 
 
-firebase::Variant *_wrap_new_Variant__SWIG_7_firebase_e442d670bd0d5df6(_gostring_ _swig_go_0) {
+firebase::Variant *_wrap_new_Variant__SWIG_7_firebase_e8df7fbc24f322ca(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   firebase::Variant *result = 0 ;
   firebase::Variant *_swig_go_result;
@@ -517,12 +520,15 @@ firebase::Variant *_wrap_new_Variant__SWIG_7_firebase_e442d670bd0d5df6(_gostring
 }
 
 
-firebase::Variant *_wrap_new_Variant__SWIG_8_firebase_e442d670bd0d5df6(std::string *_swig_go_0) {
+firebase::Variant *_wrap_new_Variant__SWIG_8_firebase_e8df7fbc24f322ca(_gostring_ _swig_go_0) {
   std::string *arg1 = 0 ;
   firebase::Variant *result = 0 ;
   firebase::Variant *_swig_go_result;
   
-  arg1 = *(std::string **)&_swig_go_0; 
+  
+  std::string arg1_str(_swig_go_0.p, _swig_go_0.n);
+  arg1 = &arg1_str;
+  
   
   result = (firebase::Variant *)new firebase::Variant((std::string const &)*arg1);
   *(firebase::Variant **)&_swig_go_result = (firebase::Variant *)result; 
@@ -530,7 +536,7 @@ firebase::Variant *_wrap_new_Variant__SWIG_8_firebase_e442d670bd0d5df6(std::stri
 }
 
 
-firebase::Variant *_wrap_new_Variant__SWIG_9_firebase_e442d670bd0d5df6(std::vector< firebase::Variant > *_swig_go_0) {
+firebase::Variant *_wrap_new_Variant__SWIG_9_firebase_e8df7fbc24f322ca(std::vector< firebase::Variant > *_swig_go_0) {
   std::vector< firebase::Variant > *arg1 = 0 ;
   firebase::Variant *result = 0 ;
   firebase::Variant *_swig_go_result;
@@ -543,7 +549,7 @@ firebase::Variant *_wrap_new_Variant__SWIG_9_firebase_e442d670bd0d5df6(std::vect
 }
 
 
-firebase::Variant *_wrap_new_Variant__SWIG_12_firebase_e442d670bd0d5df6(std::map< firebase::Variant,firebase::Variant > *_swig_go_0) {
+firebase::Variant *_wrap_new_Variant__SWIG_12_firebase_e8df7fbc24f322ca(std::map< firebase::Variant,firebase::Variant > *_swig_go_0) {
   std::map< firebase::Variant,firebase::Variant > *arg1 = 0 ;
   firebase::Variant *result = 0 ;
   firebase::Variant *_swig_go_result;
@@ -556,7 +562,7 @@ firebase::Variant *_wrap_new_Variant__SWIG_12_firebase_e442d670bd0d5df6(std::map
 }
 
 
-firebase::Variant *_wrap_new_Variant__SWIG_14_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+firebase::Variant *_wrap_new_Variant__SWIG_14_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = 0 ;
   firebase::Variant *result = 0 ;
   firebase::Variant *_swig_go_result;
@@ -569,7 +575,7 @@ firebase::Variant *_wrap_new_Variant__SWIG_14_firebase_e442d670bd0d5df6(firebase
 }
 
 
-void _wrap_delete_Variant_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+void _wrap_delete_Variant_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   
   arg1 = *(firebase::Variant **)&_swig_go_0; 
@@ -579,7 +585,7 @@ void _wrap_delete_Variant_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_
 }
 
 
-void _wrap_Variant_Clear__SWIG_0_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0, intgo _swig_go_1) {
+void _wrap_Variant_Clear__SWIG_0_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0, intgo _swig_go_1) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   firebase::Variant::Type arg2 ;
   
@@ -591,7 +597,7 @@ void _wrap_Variant_Clear__SWIG_0_firebase_e442d670bd0d5df6(firebase::Variant *_s
 }
 
 
-void _wrap_Variant_Clear__SWIG_1_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+void _wrap_Variant_Clear__SWIG_1_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   
   arg1 = *(firebase::Variant **)&_swig_go_0; 
@@ -601,7 +607,7 @@ void _wrap_Variant_Clear__SWIG_1_firebase_e442d670bd0d5df6(firebase::Variant *_s
 }
 
 
-firebase::Variant *_wrap_Variant_Null_firebase_e442d670bd0d5df6() {
+firebase::Variant *_wrap_Variant_Null_firebase_e8df7fbc24f322ca() {
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
   
@@ -612,7 +618,7 @@ firebase::Variant *_wrap_Variant_Null_firebase_e442d670bd0d5df6() {
 }
 
 
-firebase::Variant *_wrap_Variant_Zero_firebase_e442d670bd0d5df6() {
+firebase::Variant *_wrap_Variant_Zero_firebase_e8df7fbc24f322ca() {
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
   
@@ -623,7 +629,7 @@ firebase::Variant *_wrap_Variant_Zero_firebase_e442d670bd0d5df6() {
 }
 
 
-firebase::Variant *_wrap_Variant_One_firebase_e442d670bd0d5df6() {
+firebase::Variant *_wrap_Variant_One_firebase_e8df7fbc24f322ca() {
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
   
@@ -634,7 +640,7 @@ firebase::Variant *_wrap_Variant_One_firebase_e442d670bd0d5df6() {
 }
 
 
-firebase::Variant *_wrap_Variant_ZeroPointZero_firebase_e442d670bd0d5df6() {
+firebase::Variant *_wrap_Variant_ZeroPointZero_firebase_e8df7fbc24f322ca() {
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
   
@@ -645,7 +651,7 @@ firebase::Variant *_wrap_Variant_ZeroPointZero_firebase_e442d670bd0d5df6() {
 }
 
 
-firebase::Variant *_wrap_Variant_OnePointZero_firebase_e442d670bd0d5df6() {
+firebase::Variant *_wrap_Variant_OnePointZero_firebase_e8df7fbc24f322ca() {
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
   
@@ -656,7 +662,7 @@ firebase::Variant *_wrap_Variant_OnePointZero_firebase_e442d670bd0d5df6() {
 }
 
 
-firebase::Variant *_wrap_Variant_False_firebase_e442d670bd0d5df6() {
+firebase::Variant *_wrap_Variant_False_firebase_e8df7fbc24f322ca() {
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
   
@@ -667,7 +673,7 @@ firebase::Variant *_wrap_Variant_False_firebase_e442d670bd0d5df6() {
 }
 
 
-firebase::Variant *_wrap_Variant_True_firebase_e442d670bd0d5df6() {
+firebase::Variant *_wrap_Variant_True_firebase_e8df7fbc24f322ca() {
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
   
@@ -678,7 +684,7 @@ firebase::Variant *_wrap_Variant_True_firebase_e442d670bd0d5df6() {
 }
 
 
-firebase::Variant *_wrap_Variant_EmptyString_firebase_e442d670bd0d5df6() {
+firebase::Variant *_wrap_Variant_EmptyString_firebase_e8df7fbc24f322ca() {
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
   
@@ -689,7 +695,7 @@ firebase::Variant *_wrap_Variant_EmptyString_firebase_e442d670bd0d5df6() {
 }
 
 
-firebase::Variant *_wrap_Variant_EmptyMutableString_firebase_e442d670bd0d5df6() {
+firebase::Variant *_wrap_Variant_EmptyMutableString_firebase_e8df7fbc24f322ca() {
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
   
@@ -700,7 +706,7 @@ firebase::Variant *_wrap_Variant_EmptyMutableString_firebase_e442d670bd0d5df6() 
 }
 
 
-firebase::Variant *_wrap_Variant_EmptyVector_firebase_e442d670bd0d5df6() {
+firebase::Variant *_wrap_Variant_EmptyVector_firebase_e8df7fbc24f322ca() {
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
   
@@ -711,7 +717,7 @@ firebase::Variant *_wrap_Variant_EmptyVector_firebase_e442d670bd0d5df6() {
 }
 
 
-firebase::Variant *_wrap_Variant_EmptyMap_firebase_e442d670bd0d5df6() {
+firebase::Variant *_wrap_Variant_EmptyMap_firebase_e8df7fbc24f322ca() {
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
   
@@ -722,7 +728,7 @@ firebase::Variant *_wrap_Variant_EmptyMap_firebase_e442d670bd0d5df6() {
 }
 
 
-firebase::Variant *_wrap_Variant_EmptyMutableBlob_firebase_e442d670bd0d5df6(long long _swig_go_0) {
+firebase::Variant *_wrap_Variant_EmptyMutableBlob_firebase_e8df7fbc24f322ca(long long _swig_go_0) {
   size_t arg1 ;
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
@@ -735,7 +741,7 @@ firebase::Variant *_wrap_Variant_EmptyMutableBlob_firebase_e442d670bd0d5df6(long
 }
 
 
-intgo _wrap_Variant_Xtype_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+intgo _wrap_Variant_Xtype_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   firebase::Variant::Type result;
   intgo _swig_go_result;
@@ -748,7 +754,7 @@ intgo _wrap_Variant_Xtype_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_
 }
 
 
-bool _wrap_Variant_is_null_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+bool _wrap_Variant_is_null_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -761,7 +767,7 @@ bool _wrap_Variant_is_null_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go
 }
 
 
-bool _wrap_Variant_is_int64_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+bool _wrap_Variant_is_int64_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -774,7 +780,7 @@ bool _wrap_Variant_is_int64_firebase_e442d670bd0d5df6(firebase::Variant *_swig_g
 }
 
 
-bool _wrap_Variant_is_double_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+bool _wrap_Variant_is_double_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -787,7 +793,7 @@ bool _wrap_Variant_is_double_firebase_e442d670bd0d5df6(firebase::Variant *_swig_
 }
 
 
-bool _wrap_Variant_is_bool_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+bool _wrap_Variant_is_bool_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -800,7 +806,7 @@ bool _wrap_Variant_is_bool_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go
 }
 
 
-bool _wrap_Variant_is_vector_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+bool _wrap_Variant_is_vector_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -813,7 +819,7 @@ bool _wrap_Variant_is_vector_firebase_e442d670bd0d5df6(firebase::Variant *_swig_
 }
 
 
-bool _wrap_Variant_is_map_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+bool _wrap_Variant_is_map_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -826,7 +832,7 @@ bool _wrap_Variant_is_map_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_
 }
 
 
-bool _wrap_Variant_is_static_string_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+bool _wrap_Variant_is_static_string_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -839,7 +845,7 @@ bool _wrap_Variant_is_static_string_firebase_e442d670bd0d5df6(firebase::Variant 
 }
 
 
-bool _wrap_Variant_is_mutable_string_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+bool _wrap_Variant_is_mutable_string_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -852,7 +858,7 @@ bool _wrap_Variant_is_mutable_string_firebase_e442d670bd0d5df6(firebase::Variant
 }
 
 
-bool _wrap_Variant_is_string_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+bool _wrap_Variant_is_string_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -865,7 +871,7 @@ bool _wrap_Variant_is_string_firebase_e442d670bd0d5df6(firebase::Variant *_swig_
 }
 
 
-bool _wrap_Variant_is_static_blob_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+bool _wrap_Variant_is_static_blob_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -878,7 +884,7 @@ bool _wrap_Variant_is_static_blob_firebase_e442d670bd0d5df6(firebase::Variant *_
 }
 
 
-bool _wrap_Variant_is_mutable_blob_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+bool _wrap_Variant_is_mutable_blob_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -891,7 +897,7 @@ bool _wrap_Variant_is_mutable_blob_firebase_e442d670bd0d5df6(firebase::Variant *
 }
 
 
-bool _wrap_Variant_is_blob_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+bool _wrap_Variant_is_blob_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -904,7 +910,7 @@ bool _wrap_Variant_is_blob_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go
 }
 
 
-bool _wrap_Variant_is_numeric_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+bool _wrap_Variant_is_numeric_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -917,7 +923,7 @@ bool _wrap_Variant_is_numeric_firebase_e442d670bd0d5df6(firebase::Variant *_swig
 }
 
 
-bool _wrap_Variant_is_fundamental_type_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+bool _wrap_Variant_is_fundamental_type_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -930,7 +936,7 @@ bool _wrap_Variant_is_fundamental_type_firebase_e442d670bd0d5df6(firebase::Varia
 }
 
 
-bool _wrap_Variant_is_container_type_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+bool _wrap_Variant_is_container_type_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -943,7 +949,7 @@ bool _wrap_Variant_is_container_type_firebase_e442d670bd0d5df6(firebase::Variant
 }
 
 
-firebase::Variant *_wrap_Variant_AsString_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+firebase::Variant *_wrap_Variant_AsString_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
@@ -956,7 +962,7 @@ firebase::Variant *_wrap_Variant_AsString_firebase_e442d670bd0d5df6(firebase::Va
 }
 
 
-firebase::Variant *_wrap_Variant_AsInt64_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+firebase::Variant *_wrap_Variant_AsInt64_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
@@ -969,7 +975,7 @@ firebase::Variant *_wrap_Variant_AsInt64_firebase_e442d670bd0d5df6(firebase::Var
 }
 
 
-firebase::Variant *_wrap_Variant_AsDouble_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+firebase::Variant *_wrap_Variant_AsDouble_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
@@ -982,7 +988,7 @@ firebase::Variant *_wrap_Variant_AsDouble_firebase_e442d670bd0d5df6(firebase::Va
 }
 
 
-firebase::Variant *_wrap_Variant_AsBool_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+firebase::Variant *_wrap_Variant_AsBool_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
@@ -995,7 +1001,7 @@ firebase::Variant *_wrap_Variant_AsBool_firebase_e442d670bd0d5df6(firebase::Vari
 }
 
 
-std::string *_wrap_Variant_mutable_string__SWIG_0_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+std::string *_wrap_Variant_mutable_string__SWIG_0_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   std::string *result = 0 ;
   std::string *_swig_go_result;
@@ -1008,7 +1014,7 @@ std::string *_wrap_Variant_mutable_string__SWIG_0_firebase_e442d670bd0d5df6(fire
 }
 
 
-long long _wrap_Variant_blob_size_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+long long _wrap_Variant_blob_size_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   size_t result;
   long long _swig_go_result;
@@ -1021,7 +1027,7 @@ long long _wrap_Variant_blob_size_firebase_e442d670bd0d5df6(firebase::Variant *_
 }
 
 
-uint8_t *_wrap_Variant_blob_data_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+uint8_t *_wrap_Variant_blob_data_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   uint8_t *result = 0 ;
   uint8_t *_swig_go_result;
@@ -1034,7 +1040,7 @@ uint8_t *_wrap_Variant_blob_data_firebase_e442d670bd0d5df6(firebase::Variant *_s
 }
 
 
-uint8_t *_wrap_Variant_mutable_blob_data__SWIG_0_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+uint8_t *_wrap_Variant_mutable_blob_data__SWIG_0_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   uint8_t *result = 0 ;
   uint8_t *_swig_go_result;
@@ -1047,7 +1053,7 @@ uint8_t *_wrap_Variant_mutable_blob_data__SWIG_0_firebase_e442d670bd0d5df6(fireb
 }
 
 
-uint8_t *_wrap_Variant_mutable_blob_data__SWIG_1_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+uint8_t *_wrap_Variant_mutable_blob_data__SWIG_1_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   uint8_t *result = 0 ;
   uint8_t *_swig_go_result;
@@ -1060,7 +1066,7 @@ uint8_t *_wrap_Variant_mutable_blob_data__SWIG_1_firebase_e442d670bd0d5df6(fireb
 }
 
 
-std::vector< firebase::Variant > *_wrap_Variant_vector__SWIG_0_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+std::vector< firebase::Variant > *_wrap_Variant_vector__SWIG_0_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   std::vector< firebase::Variant > *result = 0 ;
   std::vector< firebase::Variant > *_swig_go_result;
@@ -1073,7 +1079,7 @@ std::vector< firebase::Variant > *_wrap_Variant_vector__SWIG_0_firebase_e442d670
 }
 
 
-std::map< firebase::Variant,firebase::Variant > *_wrap_Variant_map__SWIG_0_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+std::map< firebase::Variant,firebase::Variant > *_wrap_Variant_map__SWIG_0_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   std::map< firebase::Variant,firebase::Variant > *result = 0 ;
   std::map< firebase::Variant,firebase::Variant > *_swig_go_result;
@@ -1086,7 +1092,7 @@ std::map< firebase::Variant,firebase::Variant > *_wrap_Variant_map__SWIG_0_fireb
 }
 
 
-int64_t *_wrap_Variant_int64_value_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+int64_t *_wrap_Variant_int64_value_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   int64_t result;
   int64_t *_swig_go_result;
@@ -1099,7 +1105,7 @@ int64_t *_wrap_Variant_int64_value_firebase_e442d670bd0d5df6(firebase::Variant *
 }
 
 
-double _wrap_Variant_double_value_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+double _wrap_Variant_double_value_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   double result;
   double _swig_go_result;
@@ -1112,7 +1118,7 @@ double _wrap_Variant_double_value_firebase_e442d670bd0d5df6(firebase::Variant *_
 }
 
 
-bool _wrap_Variant_bool_value_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+bool _wrap_Variant_bool_value_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   bool *result = 0 ;
   bool _swig_go_result;
@@ -1125,7 +1131,7 @@ bool _wrap_Variant_bool_value_firebase_e442d670bd0d5df6(firebase::Variant *_swig
 }
 
 
-_gostring_ _wrap_Variant_string_value_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+_gostring_ _wrap_Variant_string_value_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1138,20 +1144,20 @@ _gostring_ _wrap_Variant_string_value_firebase_e442d670bd0d5df6(firebase::Varian
 }
 
 
-std::string *_wrap_Variant_mutable_string__SWIG_1_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+_gostring_ _wrap_Variant_mutable_string__SWIG_1_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   std::string *result = 0 ;
-  std::string *_swig_go_result;
+  _gostring_ _swig_go_result;
   
   arg1 = *(firebase::Variant **)&_swig_go_0; 
   
   result = (std::string *) &((firebase::Variant const *)arg1)->mutable_string();
-  *(std::string **)&_swig_go_result = result; 
+  _swig_go_result = Swig_AllocateString((*result).data(), (*result).length()); 
   return _swig_go_result;
 }
 
 
-std::vector< firebase::Variant > *_wrap_Variant_vector__SWIG_1_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+std::vector< firebase::Variant > *_wrap_Variant_vector__SWIG_1_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   std::vector< firebase::Variant > *result = 0 ;
   std::vector< firebase::Variant > *_swig_go_result;
@@ -1164,7 +1170,7 @@ std::vector< firebase::Variant > *_wrap_Variant_vector__SWIG_1_firebase_e442d670
 }
 
 
-std::map< firebase::Variant,firebase::Variant > *_wrap_Variant_map__SWIG_1_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+std::map< firebase::Variant,firebase::Variant > *_wrap_Variant_map__SWIG_1_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   std::map< firebase::Variant,firebase::Variant > *result = 0 ;
   std::map< firebase::Variant,firebase::Variant > *_swig_go_result;
@@ -1177,7 +1183,7 @@ std::map< firebase::Variant,firebase::Variant > *_wrap_Variant_map__SWIG_1_fireb
 }
 
 
-void _wrap_Variant_set_null_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0) {
+void _wrap_Variant_set_null_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   
   arg1 = *(firebase::Variant **)&_swig_go_0; 
@@ -1187,7 +1193,7 @@ void _wrap_Variant_set_null_firebase_e442d670bd0d5df6(firebase::Variant *_swig_g
 }
 
 
-void _wrap_Variant_set_int64_value_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0, int64_t *_swig_go_1) {
+void _wrap_Variant_set_int64_value_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0, int64_t *_swig_go_1) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   int64_t arg2 ;
   int64_t *argp2 ;
@@ -1206,7 +1212,7 @@ void _wrap_Variant_set_int64_value_firebase_e442d670bd0d5df6(firebase::Variant *
 }
 
 
-void _wrap_Variant_set_double_value_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0, double _swig_go_1) {
+void _wrap_Variant_set_double_value_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0, double _swig_go_1) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   double arg2 ;
   
@@ -1218,7 +1224,7 @@ void _wrap_Variant_set_double_value_firebase_e442d670bd0d5df6(firebase::Variant 
 }
 
 
-void _wrap_Variant_set_bool_value_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0, bool _swig_go_1) {
+void _wrap_Variant_set_bool_value_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0, bool _swig_go_1) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   bool arg2 ;
   
@@ -1230,7 +1236,7 @@ void _wrap_Variant_set_bool_value_firebase_e442d670bd0d5df6(firebase::Variant *_
 }
 
 
-void _wrap_Variant_set_string_value__SWIG_0_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_Variant_set_string_value__SWIG_0_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1247,7 +1253,7 @@ void _wrap_Variant_set_string_value__SWIG_0_firebase_e442d670bd0d5df6(firebase::
 }
 
 
-void _wrap_Variant_set_string_value__SWIG_1_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_Variant_set_string_value__SWIG_1_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -1264,31 +1270,37 @@ void _wrap_Variant_set_string_value__SWIG_1_firebase_e442d670bd0d5df6(firebase::
 }
 
 
-void _wrap_Variant_set_string_value__SWIG_2_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0, std::string *_swig_go_1) {
+void _wrap_Variant_set_string_value__SWIG_2_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   std::string *arg2 = 0 ;
   
   arg1 = *(firebase::Variant **)&_swig_go_0; 
-  arg2 = *(std::string **)&_swig_go_1; 
+  
+  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
+  arg2 = &arg2_str;
+  
   
   (arg1)->set_string_value((std::string const &)*arg2);
   
 }
 
 
-void _wrap_Variant_set_mutable_string_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0, std::string *_swig_go_1) {
+void _wrap_Variant_set_mutable_string_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   std::string *arg2 = 0 ;
   
   arg1 = *(firebase::Variant **)&_swig_go_0; 
-  arg2 = *(std::string **)&_swig_go_1; 
+  
+  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
+  arg2 = &arg2_str;
+  
   
   (arg1)->set_mutable_string((std::string const &)*arg2);
   
 }
 
 
-void _wrap_Variant_set_mutable_blob_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
+void _wrap_Variant_set_mutable_blob_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   void *arg2 = (void *) 0 ;
   size_t arg3 ;
@@ -1302,7 +1314,7 @@ void _wrap_Variant_set_mutable_blob_firebase_e442d670bd0d5df6(firebase::Variant 
 }
 
 
-void _wrap_Variant_set_static_blob_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
+void _wrap_Variant_set_static_blob_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   void *arg2 = (void *) 0 ;
   size_t arg3 ;
@@ -1316,7 +1328,7 @@ void _wrap_Variant_set_static_blob_firebase_e442d670bd0d5df6(firebase::Variant *
 }
 
 
-void _wrap_Variant_set_vector_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0, std::vector< firebase::Variant > *_swig_go_1) {
+void _wrap_Variant_set_vector_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0, std::vector< firebase::Variant > *_swig_go_1) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   std::vector< firebase::Variant > *arg2 = 0 ;
   
@@ -1328,7 +1340,7 @@ void _wrap_Variant_set_vector_firebase_e442d670bd0d5df6(firebase::Variant *_swig
 }
 
 
-void _wrap_Variant_set_map_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0, std::map< firebase::Variant,firebase::Variant > *_swig_go_1) {
+void _wrap_Variant_set_map_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0, std::map< firebase::Variant,firebase::Variant > *_swig_go_1) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   std::map< firebase::Variant,firebase::Variant > *arg2 = 0 ;
   
@@ -1340,7 +1352,7 @@ void _wrap_Variant_set_map_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go
 }
 
 
-void _wrap_Variant_AssignMutableString_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0, std::string **_swig_go_1) {
+void _wrap_Variant_AssignMutableString_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0, _gostring_** _swig_go_1) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   std::string **arg2 = (std::string **) 0 ;
   
@@ -1352,7 +1364,7 @@ void _wrap_Variant_AssignMutableString_firebase_e442d670bd0d5df6(firebase::Varia
 }
 
 
-void _wrap_Variant_AssignVector_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0, std::vector< firebase::Variant > **_swig_go_1) {
+void _wrap_Variant_AssignVector_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0, std::vector< firebase::Variant > **_swig_go_1) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   std::vector< firebase::Variant > **arg2 = (std::vector< firebase::Variant > **) 0 ;
   
@@ -1364,7 +1376,7 @@ void _wrap_Variant_AssignVector_firebase_e442d670bd0d5df6(firebase::Variant *_sw
 }
 
 
-void _wrap_Variant_AssignMap_firebase_e442d670bd0d5df6(firebase::Variant *_swig_go_0, std::map< firebase::Variant,firebase::Variant > **_swig_go_1) {
+void _wrap_Variant_AssignMap_firebase_e8df7fbc24f322ca(firebase::Variant *_swig_go_0, std::map< firebase::Variant,firebase::Variant > **_swig_go_1) {
   firebase::Variant *arg1 = (firebase::Variant *) 0 ;
   std::map< firebase::Variant,firebase::Variant > **arg2 = (std::map< firebase::Variant,firebase::Variant > **) 0 ;
   
@@ -1376,7 +1388,7 @@ void _wrap_Variant_AssignMap_firebase_e442d670bd0d5df6(firebase::Variant *_swig_
 }
 
 
-firebase::Variant *_wrap_Variant_FromInt64_firebase_e442d670bd0d5df6(int64_t *_swig_go_0) {
+firebase::Variant *_wrap_Variant_FromInt64_firebase_e8df7fbc24f322ca(int64_t *_swig_go_0) {
   int64_t arg1 ;
   int64_t *argp1 ;
   firebase::Variant result;
@@ -1396,7 +1408,7 @@ firebase::Variant *_wrap_Variant_FromInt64_firebase_e442d670bd0d5df6(int64_t *_s
 }
 
 
-firebase::Variant *_wrap_Variant_FromDouble_firebase_e442d670bd0d5df6(double _swig_go_0) {
+firebase::Variant *_wrap_Variant_FromDouble_firebase_e8df7fbc24f322ca(double _swig_go_0) {
   double arg1 ;
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
@@ -1409,7 +1421,7 @@ firebase::Variant *_wrap_Variant_FromDouble_firebase_e442d670bd0d5df6(double _sw
 }
 
 
-firebase::Variant *_wrap_Variant_FromBool_firebase_e442d670bd0d5df6(bool _swig_go_0) {
+firebase::Variant *_wrap_Variant_FromBool_firebase_e8df7fbc24f322ca(bool _swig_go_0) {
   bool arg1 ;
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
@@ -1422,7 +1434,7 @@ firebase::Variant *_wrap_Variant_FromBool_firebase_e442d670bd0d5df6(bool _swig_g
 }
 
 
-firebase::Variant *_wrap_Variant_FromStaticString_firebase_e442d670bd0d5df6(_gostring_ _swig_go_0) {
+firebase::Variant *_wrap_Variant_FromStaticString_firebase_e8df7fbc24f322ca(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
@@ -1440,12 +1452,15 @@ firebase::Variant *_wrap_Variant_FromStaticString_firebase_e442d670bd0d5df6(_gos
 }
 
 
-firebase::Variant *_wrap_Variant_FromMutableString_firebase_e442d670bd0d5df6(std::string *_swig_go_0) {
+firebase::Variant *_wrap_Variant_FromMutableString_firebase_e8df7fbc24f322ca(_gostring_ _swig_go_0) {
   std::string *arg1 = 0 ;
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
   
-  arg1 = *(std::string **)&_swig_go_0; 
+  
+  std::string arg1_str(_swig_go_0.p, _swig_go_0.n);
+  arg1 = &arg1_str;
+  
   
   result = firebase::Variant::FromMutableString((std::string const &)*arg1);
   *(firebase::Variant **)&_swig_go_result = new firebase::Variant(result); 
@@ -1453,7 +1468,7 @@ firebase::Variant *_wrap_Variant_FromMutableString_firebase_e442d670bd0d5df6(std
 }
 
 
-firebase::Variant *_wrap_Variant_FromStaticBlob_firebase_e442d670bd0d5df6(void *_swig_go_0, long long _swig_go_1) {
+firebase::Variant *_wrap_Variant_FromStaticBlob_firebase_e8df7fbc24f322ca(void *_swig_go_0, long long _swig_go_1) {
   void *arg1 = (void *) 0 ;
   size_t arg2 ;
   firebase::Variant result;
@@ -1468,7 +1483,7 @@ firebase::Variant *_wrap_Variant_FromStaticBlob_firebase_e442d670bd0d5df6(void *
 }
 
 
-firebase::Variant *_wrap_Variant_FromMutableBlob_firebase_e442d670bd0d5df6(void *_swig_go_0, long long _swig_go_1) {
+firebase::Variant *_wrap_Variant_FromMutableBlob_firebase_e8df7fbc24f322ca(void *_swig_go_0, long long _swig_go_1) {
   void *arg1 = (void *) 0 ;
   size_t arg2 ;
   firebase::Variant result;
@@ -1483,7 +1498,7 @@ firebase::Variant *_wrap_Variant_FromMutableBlob_firebase_e442d670bd0d5df6(void 
 }
 
 
-firebase::Variant *_wrap_Variant_MutableStringFromStaticString_firebase_e442d670bd0d5df6(_gostring_ _swig_go_0) {
+firebase::Variant *_wrap_Variant_MutableStringFromStaticString_firebase_e8df7fbc24f322ca(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
@@ -1501,7 +1516,7 @@ firebase::Variant *_wrap_Variant_MutableStringFromStaticString_firebase_e442d670
 }
 
 
-_gostring_ _wrap_Variant_TypeName_firebase_e442d670bd0d5df6(intgo _swig_go_0) {
+_gostring_ _wrap_Variant_TypeName_firebase_e8df7fbc24f322ca(intgo _swig_go_0) {
   firebase::Variant::Type arg1 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1514,7 +1529,7 @@ _gostring_ _wrap_Variant_TypeName_firebase_e442d670bd0d5df6(intgo _swig_go_0) {
 }
 
 
-intgo _wrap_kErrorNone_firebase_e442d670bd0d5df6() {
+intgo _wrap_kErrorNone_firebase_e8df7fbc24f322ca() {
   firebase::database::Error result;
   intgo _swig_go_result;
   
@@ -1526,7 +1541,7 @@ intgo _wrap_kErrorNone_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kErrorDisconnected_firebase_e442d670bd0d5df6() {
+intgo _wrap_kErrorDisconnected_firebase_e8df7fbc24f322ca() {
   firebase::database::Error result;
   intgo _swig_go_result;
   
@@ -1538,7 +1553,7 @@ intgo _wrap_kErrorDisconnected_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kErrorExpiredToken_firebase_e442d670bd0d5df6() {
+intgo _wrap_kErrorExpiredToken_firebase_e8df7fbc24f322ca() {
   firebase::database::Error result;
   intgo _swig_go_result;
   
@@ -1550,7 +1565,7 @@ intgo _wrap_kErrorExpiredToken_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kErrorInvalidToken_firebase_e442d670bd0d5df6() {
+intgo _wrap_kErrorInvalidToken_firebase_e8df7fbc24f322ca() {
   firebase::database::Error result;
   intgo _swig_go_result;
   
@@ -1562,7 +1577,7 @@ intgo _wrap_kErrorInvalidToken_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kErrorMaxRetries_firebase_e442d670bd0d5df6() {
+intgo _wrap_kErrorMaxRetries_firebase_e8df7fbc24f322ca() {
   firebase::database::Error result;
   intgo _swig_go_result;
   
@@ -1574,7 +1589,7 @@ intgo _wrap_kErrorMaxRetries_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kErrorNetworkError_firebase_e442d670bd0d5df6() {
+intgo _wrap_kErrorNetworkError_firebase_e8df7fbc24f322ca() {
   firebase::database::Error result;
   intgo _swig_go_result;
   
@@ -1586,7 +1601,7 @@ intgo _wrap_kErrorNetworkError_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kErrorOperationFailed_firebase_e442d670bd0d5df6() {
+intgo _wrap_kErrorOperationFailed_firebase_e8df7fbc24f322ca() {
   firebase::database::Error result;
   intgo _swig_go_result;
   
@@ -1598,7 +1613,7 @@ intgo _wrap_kErrorOperationFailed_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kErrorOverriddenBySet_firebase_e442d670bd0d5df6() {
+intgo _wrap_kErrorOverriddenBySet_firebase_e8df7fbc24f322ca() {
   firebase::database::Error result;
   intgo _swig_go_result;
   
@@ -1610,7 +1625,7 @@ intgo _wrap_kErrorOverriddenBySet_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kErrorPermissionDenied_firebase_e442d670bd0d5df6() {
+intgo _wrap_kErrorPermissionDenied_firebase_e8df7fbc24f322ca() {
   firebase::database::Error result;
   intgo _swig_go_result;
   
@@ -1622,7 +1637,7 @@ intgo _wrap_kErrorPermissionDenied_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kErrorUnavailable_firebase_e442d670bd0d5df6() {
+intgo _wrap_kErrorUnavailable_firebase_e8df7fbc24f322ca() {
   firebase::database::Error result;
   intgo _swig_go_result;
   
@@ -1634,7 +1649,7 @@ intgo _wrap_kErrorUnavailable_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kErrorUnknownError_firebase_e442d670bd0d5df6() {
+intgo _wrap_kErrorUnknownError_firebase_e8df7fbc24f322ca() {
   firebase::database::Error result;
   intgo _swig_go_result;
   
@@ -1646,7 +1661,7 @@ intgo _wrap_kErrorUnknownError_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kErrorWriteCanceled_firebase_e442d670bd0d5df6() {
+intgo _wrap_kErrorWriteCanceled_firebase_e8df7fbc24f322ca() {
   firebase::database::Error result;
   intgo _swig_go_result;
   
@@ -1658,7 +1673,7 @@ intgo _wrap_kErrorWriteCanceled_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kErrorInvalidVariantType_firebase_e442d670bd0d5df6() {
+intgo _wrap_kErrorInvalidVariantType_firebase_e8df7fbc24f322ca() {
   firebase::database::Error result;
   intgo _swig_go_result;
   
@@ -1670,7 +1685,7 @@ intgo _wrap_kErrorInvalidVariantType_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kErrorConflictingOperationInProgress_firebase_e442d670bd0d5df6() {
+intgo _wrap_kErrorConflictingOperationInProgress_firebase_e8df7fbc24f322ca() {
   firebase::database::Error result;
   intgo _swig_go_result;
   
@@ -1682,7 +1697,7 @@ intgo _wrap_kErrorConflictingOperationInProgress_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kErrorTransactionAbortedByUser_firebase_e442d670bd0d5df6() {
+intgo _wrap_kErrorTransactionAbortedByUser_firebase_e8df7fbc24f322ca() {
   firebase::database::Error result;
   intgo _swig_go_result;
   
@@ -1694,7 +1709,7 @@ intgo _wrap_kErrorTransactionAbortedByUser_firebase_e442d670bd0d5df6() {
 }
 
 
-_gostring_ _wrap_GetErrorMessage_firebase_e442d670bd0d5df6(intgo _swig_go_0) {
+_gostring_ _wrap_GetErrorMessage_firebase_e8df7fbc24f322ca(intgo _swig_go_0) {
   firebase::database::Error arg1 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1707,7 +1722,7 @@ _gostring_ _wrap_GetErrorMessage_firebase_e442d670bd0d5df6(intgo _swig_go_0) {
 }
 
 
-firebase::Variant *_wrap_ServerTimestamp_firebase_e442d670bd0d5df6() {
+firebase::Variant *_wrap_ServerTimestamp_firebase_e8df7fbc24f322ca() {
   firebase::Variant *result = 0 ;
   firebase::Variant *_swig_go_result;
   
@@ -1718,7 +1733,7 @@ firebase::Variant *_wrap_ServerTimestamp_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kFutureStatusComplete_firebase_e442d670bd0d5df6() {
+intgo _wrap_kFutureStatusComplete_firebase_e8df7fbc24f322ca() {
   firebase::FutureStatus result;
   intgo _swig_go_result;
   
@@ -1730,7 +1745,7 @@ intgo _wrap_kFutureStatusComplete_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kFutureStatusPending_firebase_e442d670bd0d5df6() {
+intgo _wrap_kFutureStatusPending_firebase_e8df7fbc24f322ca() {
   firebase::FutureStatus result;
   intgo _swig_go_result;
   
@@ -1742,7 +1757,7 @@ intgo _wrap_kFutureStatusPending_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kFutureStatusInvalid_firebase_e442d670bd0d5df6() {
+intgo _wrap_kFutureStatusInvalid_firebase_e8df7fbc24f322ca() {
   firebase::FutureStatus result;
   intgo _swig_go_result;
   
@@ -1754,7 +1769,7 @@ intgo _wrap_kFutureStatusInvalid_firebase_e442d670bd0d5df6() {
 }
 
 
-firebase::FutureBase *_wrap_new_FutureBase__SWIG_0_firebase_e442d670bd0d5df6() {
+firebase::FutureBase *_wrap_new_FutureBase__SWIG_0_firebase_e8df7fbc24f322ca() {
   firebase::FutureBase *result = 0 ;
   firebase::FutureBase *_swig_go_result;
   
@@ -1765,7 +1780,7 @@ firebase::FutureBase *_wrap_new_FutureBase__SWIG_0_firebase_e442d670bd0d5df6() {
 }
 
 
-firebase::FutureBase *_wrap_new_FutureBase__SWIG_1_firebase_e442d670bd0d5df6(firebase::detail::FutureApiInterface *_swig_go_0, uintptr_t *_swig_go_1) {
+firebase::FutureBase *_wrap_new_FutureBase__SWIG_1_firebase_e8df7fbc24f322ca(firebase::detail::FutureApiInterface *_swig_go_0, uintptr_t *_swig_go_1) {
   firebase::detail::FutureApiInterface *arg1 = (firebase::detail::FutureApiInterface *) 0 ;
   firebase::FutureHandle arg2 ;
   firebase::FutureHandle *argp2 ;
@@ -1787,7 +1802,7 @@ firebase::FutureBase *_wrap_new_FutureBase__SWIG_1_firebase_e442d670bd0d5df6(fir
 }
 
 
-void _wrap_delete_FutureBase_firebase_e442d670bd0d5df6(firebase::FutureBase *_swig_go_0) {
+void _wrap_delete_FutureBase_firebase_e8df7fbc24f322ca(firebase::FutureBase *_swig_go_0) {
   firebase::FutureBase *arg1 = (firebase::FutureBase *) 0 ;
   
   arg1 = *(firebase::FutureBase **)&_swig_go_0; 
@@ -1797,7 +1812,7 @@ void _wrap_delete_FutureBase_firebase_e442d670bd0d5df6(firebase::FutureBase *_sw
 }
 
 
-firebase::FutureBase *_wrap_new_FutureBase__SWIG_2_firebase_e442d670bd0d5df6(firebase::FutureBase *_swig_go_0) {
+firebase::FutureBase *_wrap_new_FutureBase__SWIG_2_firebase_e8df7fbc24f322ca(firebase::FutureBase *_swig_go_0) {
   firebase::FutureBase *arg1 = 0 ;
   firebase::FutureBase *result = 0 ;
   firebase::FutureBase *_swig_go_result;
@@ -1810,7 +1825,7 @@ firebase::FutureBase *_wrap_new_FutureBase__SWIG_2_firebase_e442d670bd0d5df6(fir
 }
 
 
-void _wrap_FutureBase_Release_firebase_e442d670bd0d5df6(firebase::FutureBase *_swig_go_0) {
+void _wrap_FutureBase_Release_firebase_e8df7fbc24f322ca(firebase::FutureBase *_swig_go_0) {
   firebase::FutureBase *arg1 = (firebase::FutureBase *) 0 ;
   
   arg1 = *(firebase::FutureBase **)&_swig_go_0; 
@@ -1820,7 +1835,7 @@ void _wrap_FutureBase_Release_firebase_e442d670bd0d5df6(firebase::FutureBase *_s
 }
 
 
-intgo _wrap_FutureBase_Status_firebase_e442d670bd0d5df6(firebase::FutureBase *_swig_go_0) {
+intgo _wrap_FutureBase_Status_firebase_e8df7fbc24f322ca(firebase::FutureBase *_swig_go_0) {
   firebase::FutureBase *arg1 = (firebase::FutureBase *) 0 ;
   firebase::FutureStatus result;
   intgo _swig_go_result;
@@ -1833,7 +1848,7 @@ intgo _wrap_FutureBase_Status_firebase_e442d670bd0d5df6(firebase::FutureBase *_s
 }
 
 
-intgo _wrap_FutureBase_Error_firebase_e442d670bd0d5df6(firebase::FutureBase *_swig_go_0) {
+intgo _wrap_FutureBase_Error_firebase_e8df7fbc24f322ca(firebase::FutureBase *_swig_go_0) {
   firebase::FutureBase *arg1 = (firebase::FutureBase *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1846,7 +1861,7 @@ intgo _wrap_FutureBase_Error_firebase_e442d670bd0d5df6(firebase::FutureBase *_sw
 }
 
 
-_gostring_ _wrap_FutureBase_ErrorMessage_firebase_e442d670bd0d5df6(firebase::FutureBase *_swig_go_0) {
+_gostring_ _wrap_FutureBase_ErrorMessage_firebase_e8df7fbc24f322ca(firebase::FutureBase *_swig_go_0) {
   firebase::FutureBase *arg1 = (firebase::FutureBase *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1859,7 +1874,7 @@ _gostring_ _wrap_FutureBase_ErrorMessage_firebase_e442d670bd0d5df6(firebase::Fut
 }
 
 
-_gostring_ _wrap_FutureBase_error_message_firebase_e442d670bd0d5df6(firebase::FutureBase *_swig_go_0) {
+_gostring_ _wrap_FutureBase_error_message_firebase_e8df7fbc24f322ca(firebase::FutureBase *_swig_go_0) {
   firebase::FutureBase *arg1 = (firebase::FutureBase *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1872,7 +1887,7 @@ _gostring_ _wrap_FutureBase_error_message_firebase_e442d670bd0d5df6(firebase::Fu
 }
 
 
-void *_wrap_FutureBase_ResultVoid_firebase_e442d670bd0d5df6(firebase::FutureBase *_swig_go_0) {
+void *_wrap_FutureBase_ResultVoid_firebase_e8df7fbc24f322ca(firebase::FutureBase *_swig_go_0) {
   firebase::FutureBase *arg1 = (firebase::FutureBase *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -1885,7 +1900,7 @@ void *_wrap_FutureBase_ResultVoid_firebase_e442d670bd0d5df6(firebase::FutureBase
 }
 
 
-void *_wrap_FutureBase_result_void_firebase_e442d670bd0d5df6(firebase::FutureBase *_swig_go_0) {
+void *_wrap_FutureBase_result_void_firebase_e8df7fbc24f322ca(firebase::FutureBase *_swig_go_0) {
   firebase::FutureBase *arg1 = (firebase::FutureBase *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -1898,7 +1913,7 @@ void *_wrap_FutureBase_result_void_firebase_e442d670bd0d5df6(firebase::FutureBas
 }
 
 
-void _wrap_FutureBase_OnCompletion_firebase_e442d670bd0d5df6(firebase::FutureBase *_swig_go_0, void** _swig_go_1, void *_swig_go_2) {
+void _wrap_FutureBase_OnCompletion_firebase_e8df7fbc24f322ca(firebase::FutureBase *_swig_go_0, void** _swig_go_1, void *_swig_go_2) {
   firebase::FutureBase *arg1 = (firebase::FutureBase *) 0 ;
   firebase::FutureBase::CompletionCallback arg2 = (firebase::FutureBase::CompletionCallback) 0 ;
   void *arg3 = (void *) 0 ;
@@ -1912,7 +1927,7 @@ void _wrap_FutureBase_OnCompletion_firebase_e442d670bd0d5df6(firebase::FutureBas
 }
 
 
-void _wrap_delete_MutableData_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0) {
+void _wrap_delete_MutableData_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   
   arg1 = *(firebase::database::MutableData **)&_swig_go_0; 
@@ -1922,7 +1937,7 @@ void _wrap_delete_MutableData_firebase_e442d670bd0d5df6(firebase::database::Muta
 }
 
 
-firebase::database::MutableData *_wrap_MutableData_Child__SWIG_0_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0, _gostring_ _swig_go_1) {
+firebase::database::MutableData *_wrap_MutableData_Child__SWIG_0_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   char *arg2 = (char *) 0 ;
   SwigValueWrapper< firebase::database::MutableData > result;
@@ -1942,14 +1957,17 @@ firebase::database::MutableData *_wrap_MutableData_Child__SWIG_0_firebase_e442d6
 }
 
 
-firebase::database::MutableData *_wrap_MutableData_Child__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0, std::string *_swig_go_1) {
+firebase::database::MutableData *_wrap_MutableData_Child__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   std::string *arg2 = 0 ;
   SwigValueWrapper< firebase::database::MutableData > result;
   firebase::database::MutableData *_swig_go_result;
   
   arg1 = *(firebase::database::MutableData **)&_swig_go_0; 
-  arg2 = *(std::string **)&_swig_go_1; 
+  
+  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
+  arg2 = &arg2_str;
+  
   
   result = (arg1)->Child((std::string const &)*arg2);
   *(firebase::database::MutableData **)&_swig_go_result = new firebase::database::MutableData(result); 
@@ -1957,7 +1975,7 @@ firebase::database::MutableData *_wrap_MutableData_Child__SWIG_1_firebase_e442d6
 }
 
 
-std::vector< firebase::database::MutableData > *_wrap_MutableData_children_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0) {
+std::vector< firebase::database::MutableData > *_wrap_MutableData_children_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   SwigValueWrapper< std::vector< firebase::database::MutableData > > result;
   std::vector< firebase::database::MutableData > *_swig_go_result;
@@ -1970,7 +1988,7 @@ std::vector< firebase::database::MutableData > *_wrap_MutableData_children_fireb
 }
 
 
-std::vector< firebase::database::MutableData > *_wrap_MutableData_GetChildren_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0) {
+std::vector< firebase::database::MutableData > *_wrap_MutableData_GetChildren_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   SwigValueWrapper< std::vector< firebase::database::MutableData > > result;
   std::vector< firebase::database::MutableData > *_swig_go_result;
@@ -1983,7 +2001,7 @@ std::vector< firebase::database::MutableData > *_wrap_MutableData_GetChildren_fi
 }
 
 
-long long _wrap_MutableData_children_count_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0) {
+long long _wrap_MutableData_children_count_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   size_t result;
   long long _swig_go_result;
@@ -1996,7 +2014,7 @@ long long _wrap_MutableData_children_count_firebase_e442d670bd0d5df6(firebase::d
 }
 
 
-long long _wrap_MutableData_GetChildrenCount_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0) {
+long long _wrap_MutableData_GetChildrenCount_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   size_t result;
   long long _swig_go_result;
@@ -2009,7 +2027,7 @@ long long _wrap_MutableData_GetChildrenCount_firebase_e442d670bd0d5df6(firebase:
 }
 
 
-_gostring_ _wrap_MutableData_key_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0) {
+_gostring_ _wrap_MutableData_key_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -2022,7 +2040,7 @@ _gostring_ _wrap_MutableData_key_firebase_e442d670bd0d5df6(firebase::database::M
 }
 
 
-_gostring_ _wrap_MutableData_GetKey_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0) {
+_gostring_ _wrap_MutableData_GetKey_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -2035,33 +2053,33 @@ _gostring_ _wrap_MutableData_GetKey_firebase_e442d670bd0d5df6(firebase::database
 }
 
 
-std::string *_wrap_MutableData_key_string_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0) {
+_gostring_ _wrap_MutableData_key_string_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   std::string result;
-  std::string *_swig_go_result;
+  _gostring_ _swig_go_result;
   
   arg1 = *(firebase::database::MutableData **)&_swig_go_0; 
   
   result = ((firebase::database::MutableData const *)arg1)->key_string();
-  *(std::string **)&_swig_go_result = new std::string(result); 
+  _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-std::string *_wrap_MutableData_GetKeyString_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0) {
+_gostring_ _wrap_MutableData_GetKeyString_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   std::string result;
-  std::string *_swig_go_result;
+  _gostring_ _swig_go_result;
   
   arg1 = *(firebase::database::MutableData **)&_swig_go_0; 
   
   result = ((firebase::database::MutableData const *)arg1)->GetKeyString();
-  *(std::string **)&_swig_go_result = new std::string(result); 
+  _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-firebase::Variant *_wrap_MutableData_value_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0) {
+firebase::Variant *_wrap_MutableData_value_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
@@ -2074,7 +2092,7 @@ firebase::Variant *_wrap_MutableData_value_firebase_e442d670bd0d5df6(firebase::d
 }
 
 
-firebase::Variant *_wrap_MutableData_GetValue_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0) {
+firebase::Variant *_wrap_MutableData_GetValue_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
@@ -2087,7 +2105,7 @@ firebase::Variant *_wrap_MutableData_GetValue_firebase_e442d670bd0d5df6(firebase
 }
 
 
-firebase::Variant *_wrap_MutableData_priority_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0) {
+firebase::Variant *_wrap_MutableData_priority_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
@@ -2100,7 +2118,7 @@ firebase::Variant *_wrap_MutableData_priority_firebase_e442d670bd0d5df6(firebase
 }
 
 
-firebase::Variant *_wrap_MutableData_GetPriority_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0) {
+firebase::Variant *_wrap_MutableData_GetPriority_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
@@ -2113,7 +2131,7 @@ firebase::Variant *_wrap_MutableData_GetPriority_firebase_e442d670bd0d5df6(fireb
 }
 
 
-bool _wrap_MutableData_HasChild__SWIG_0_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0, _gostring_ _swig_go_1) {
+bool _wrap_MutableData_HasChild__SWIG_0_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   char *arg2 = (char *) 0 ;
   bool result;
@@ -2133,14 +2151,17 @@ bool _wrap_MutableData_HasChild__SWIG_0_firebase_e442d670bd0d5df6(firebase::data
 }
 
 
-bool _wrap_MutableData_HasChild__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0, std::string *_swig_go_1) {
+bool _wrap_MutableData_HasChild__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   std::string *arg2 = 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(firebase::database::MutableData **)&_swig_go_0; 
-  arg2 = *(std::string **)&_swig_go_1; 
+  
+  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
+  arg2 = &arg2_str;
+  
   
   result = (bool)(arg1)->HasChild((std::string const &)*arg2);
   _swig_go_result = result; 
@@ -2148,7 +2169,7 @@ bool _wrap_MutableData_HasChild__SWIG_1_firebase_e442d670bd0d5df6(firebase::data
 }
 
 
-void _wrap_MutableData_set_value_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0, firebase::Variant *_swig_go_1) {
+void _wrap_MutableData_set_value_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0, firebase::Variant *_swig_go_1) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   firebase::Variant arg2 ;
   firebase::Variant *argp2 ;
@@ -2167,7 +2188,7 @@ void _wrap_MutableData_set_value_firebase_e442d670bd0d5df6(firebase::database::M
 }
 
 
-void _wrap_MutableData_SetValue_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0, firebase::Variant *_swig_go_1) {
+void _wrap_MutableData_SetValue_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0, firebase::Variant *_swig_go_1) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   firebase::Variant arg2 ;
   firebase::Variant *argp2 ;
@@ -2186,7 +2207,7 @@ void _wrap_MutableData_SetValue_firebase_e442d670bd0d5df6(firebase::database::Mu
 }
 
 
-void _wrap_MutableData_set_priority_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0, firebase::Variant *_swig_go_1) {
+void _wrap_MutableData_set_priority_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0, firebase::Variant *_swig_go_1) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   firebase::Variant arg2 ;
   firebase::Variant *argp2 ;
@@ -2205,7 +2226,7 @@ void _wrap_MutableData_set_priority_firebase_e442d670bd0d5df6(firebase::database
 }
 
 
-void _wrap_MutableData_SetPriority_firebase_e442d670bd0d5df6(firebase::database::MutableData *_swig_go_0, firebase::Variant *_swig_go_1) {
+void _wrap_MutableData_SetPriority_firebase_e8df7fbc24f322ca(firebase::database::MutableData *_swig_go_0, firebase::Variant *_swig_go_1) {
   firebase::database::MutableData *arg1 = (firebase::database::MutableData *) 0 ;
   firebase::Variant arg2 ;
   firebase::Variant *argp2 ;
@@ -2224,7 +2245,7 @@ void _wrap_MutableData_SetPriority_firebase_e442d670bd0d5df6(firebase::database:
 }
 
 
-firebase::database::DataSnapshot *_wrap_new_DataSnapshot_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+firebase::database::DataSnapshot *_wrap_new_DataSnapshot_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = 0 ;
   firebase::database::DataSnapshot *result = 0 ;
   firebase::database::DataSnapshot *_swig_go_result;
@@ -2237,7 +2258,7 @@ firebase::database::DataSnapshot *_wrap_new_DataSnapshot_firebase_e442d670bd0d5d
 }
 
 
-void _wrap_delete_DataSnapshot_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+void _wrap_delete_DataSnapshot_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   
   arg1 = *(firebase::database::DataSnapshot **)&_swig_go_0; 
@@ -2247,7 +2268,7 @@ void _wrap_delete_DataSnapshot_firebase_e442d670bd0d5df6(firebase::database::Dat
 }
 
 
-bool _wrap_DataSnapshot_exists_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+bool _wrap_DataSnapshot_exists_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -2260,7 +2281,7 @@ bool _wrap_DataSnapshot_exists_firebase_e442d670bd0d5df6(firebase::database::Dat
 }
 
 
-firebase::database::DataSnapshot *_wrap_DataSnapshot_Child__SWIG_0_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0, _gostring_ _swig_go_1) {
+firebase::database::DataSnapshot *_wrap_DataSnapshot_Child__SWIG_0_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   char *arg2 = (char *) 0 ;
   SwigValueWrapper< firebase::database::DataSnapshot > result;
@@ -2280,14 +2301,17 @@ firebase::database::DataSnapshot *_wrap_DataSnapshot_Child__SWIG_0_firebase_e442
 }
 
 
-firebase::database::DataSnapshot *_wrap_DataSnapshot_Child__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0, std::string *_swig_go_1) {
+firebase::database::DataSnapshot *_wrap_DataSnapshot_Child__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   std::string *arg2 = 0 ;
   SwigValueWrapper< firebase::database::DataSnapshot > result;
   firebase::database::DataSnapshot *_swig_go_result;
   
   arg1 = *(firebase::database::DataSnapshot **)&_swig_go_0; 
-  arg2 = *(std::string **)&_swig_go_1; 
+  
+  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
+  arg2 = &arg2_str;
+  
   
   result = ((firebase::database::DataSnapshot const *)arg1)->Child((std::string const &)*arg2);
   *(firebase::database::DataSnapshot **)&_swig_go_result = new firebase::database::DataSnapshot(result); 
@@ -2295,7 +2319,7 @@ firebase::database::DataSnapshot *_wrap_DataSnapshot_Child__SWIG_1_firebase_e442
 }
 
 
-std::vector< firebase::database::DataSnapshot > *_wrap_DataSnapshot_children_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+std::vector< firebase::database::DataSnapshot > *_wrap_DataSnapshot_children_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   SwigValueWrapper< std::vector< firebase::database::DataSnapshot > > result;
   std::vector< firebase::database::DataSnapshot > *_swig_go_result;
@@ -2308,7 +2332,7 @@ std::vector< firebase::database::DataSnapshot > *_wrap_DataSnapshot_children_fir
 }
 
 
-std::vector< firebase::database::DataSnapshot > *_wrap_DataSnapshot_GetChildren_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+std::vector< firebase::database::DataSnapshot > *_wrap_DataSnapshot_GetChildren_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   SwigValueWrapper< std::vector< firebase::database::DataSnapshot > > result;
   std::vector< firebase::database::DataSnapshot > *_swig_go_result;
@@ -2321,7 +2345,7 @@ std::vector< firebase::database::DataSnapshot > *_wrap_DataSnapshot_GetChildren_
 }
 
 
-long long _wrap_DataSnapshot_children_count_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+long long _wrap_DataSnapshot_children_count_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   size_t result;
   long long _swig_go_result;
@@ -2334,7 +2358,7 @@ long long _wrap_DataSnapshot_children_count_firebase_e442d670bd0d5df6(firebase::
 }
 
 
-long long _wrap_DataSnapshot_GetChildrenCount_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+long long _wrap_DataSnapshot_GetChildrenCount_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   size_t result;
   long long _swig_go_result;
@@ -2347,7 +2371,7 @@ long long _wrap_DataSnapshot_GetChildrenCount_firebase_e442d670bd0d5df6(firebase
 }
 
 
-bool _wrap_DataSnapshot_has_children_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+bool _wrap_DataSnapshot_has_children_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -2360,7 +2384,7 @@ bool _wrap_DataSnapshot_has_children_firebase_e442d670bd0d5df6(firebase::databas
 }
 
 
-bool _wrap_DataSnapshot_HasChildren_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+bool _wrap_DataSnapshot_HasChildren_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -2373,7 +2397,7 @@ bool _wrap_DataSnapshot_HasChildren_firebase_e442d670bd0d5df6(firebase::database
 }
 
 
-_gostring_ _wrap_DataSnapshot_key_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+_gostring_ _wrap_DataSnapshot_key_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -2386,7 +2410,7 @@ _gostring_ _wrap_DataSnapshot_key_firebase_e442d670bd0d5df6(firebase::database::
 }
 
 
-_gostring_ _wrap_DataSnapshot_GetKey_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+_gostring_ _wrap_DataSnapshot_GetKey_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -2399,33 +2423,33 @@ _gostring_ _wrap_DataSnapshot_GetKey_firebase_e442d670bd0d5df6(firebase::databas
 }
 
 
-std::string *_wrap_DataSnapshot_key_string_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+_gostring_ _wrap_DataSnapshot_key_string_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   std::string result;
-  std::string *_swig_go_result;
+  _gostring_ _swig_go_result;
   
   arg1 = *(firebase::database::DataSnapshot **)&_swig_go_0; 
   
   result = ((firebase::database::DataSnapshot const *)arg1)->key_string();
-  *(std::string **)&_swig_go_result = new std::string(result); 
+  _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-std::string *_wrap_DataSnapshot_GetKeyString_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+_gostring_ _wrap_DataSnapshot_GetKeyString_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   std::string result;
-  std::string *_swig_go_result;
+  _gostring_ _swig_go_result;
   
   arg1 = *(firebase::database::DataSnapshot **)&_swig_go_0; 
   
   result = ((firebase::database::DataSnapshot const *)arg1)->GetKeyString();
-  *(std::string **)&_swig_go_result = new std::string(result); 
+  _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-firebase::Variant *_wrap_DataSnapshot_value_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+firebase::Variant *_wrap_DataSnapshot_value_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
@@ -2438,7 +2462,7 @@ firebase::Variant *_wrap_DataSnapshot_value_firebase_e442d670bd0d5df6(firebase::
 }
 
 
-firebase::Variant *_wrap_DataSnapshot_GetValue_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+firebase::Variant *_wrap_DataSnapshot_GetValue_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
@@ -2451,7 +2475,7 @@ firebase::Variant *_wrap_DataSnapshot_GetValue_firebase_e442d670bd0d5df6(firebas
 }
 
 
-firebase::Variant *_wrap_DataSnapshot_priority_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+firebase::Variant *_wrap_DataSnapshot_priority_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
@@ -2464,7 +2488,7 @@ firebase::Variant *_wrap_DataSnapshot_priority_firebase_e442d670bd0d5df6(firebas
 }
 
 
-firebase::Variant *_wrap_DataSnapshot_GetPriority_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+firebase::Variant *_wrap_DataSnapshot_GetPriority_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   firebase::Variant result;
   firebase::Variant *_swig_go_result;
@@ -2477,7 +2501,7 @@ firebase::Variant *_wrap_DataSnapshot_GetPriority_firebase_e442d670bd0d5df6(fire
 }
 
 
-firebase::database::DatabaseReference *_wrap_DataSnapshot_GetReference_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+firebase::database::DatabaseReference *_wrap_DataSnapshot_GetReference_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   firebase::database::DatabaseReference result;
   firebase::database::DatabaseReference *_swig_go_result;
@@ -2490,7 +2514,7 @@ firebase::database::DatabaseReference *_wrap_DataSnapshot_GetReference_firebase_
 }
 
 
-bool _wrap_DataSnapshot_HasChild__SWIG_0_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0, _gostring_ _swig_go_1) {
+bool _wrap_DataSnapshot_HasChild__SWIG_0_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   char *arg2 = (char *) 0 ;
   bool result;
@@ -2510,14 +2534,17 @@ bool _wrap_DataSnapshot_HasChild__SWIG_0_firebase_e442d670bd0d5df6(firebase::dat
 }
 
 
-bool _wrap_DataSnapshot_HasChild__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0, std::string *_swig_go_1) {
+bool _wrap_DataSnapshot_HasChild__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   std::string *arg2 = 0 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(firebase::database::DataSnapshot **)&_swig_go_0; 
-  arg2 = *(std::string **)&_swig_go_1; 
+  
+  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
+  arg2 = &arg2_str;
+  
   
   result = (bool)((firebase::database::DataSnapshot const *)arg1)->HasChild((std::string const &)*arg2);
   _swig_go_result = result; 
@@ -2525,7 +2552,7 @@ bool _wrap_DataSnapshot_HasChild__SWIG_1_firebase_e442d670bd0d5df6(firebase::dat
 }
 
 
-bool _wrap_DataSnapshot_is_valid_firebase_e442d670bd0d5df6(firebase::database::DataSnapshot *_swig_go_0) {
+bool _wrap_DataSnapshot_is_valid_firebase_e8df7fbc24f322ca(firebase::database::DataSnapshot *_swig_go_0) {
   firebase::database::DataSnapshot *arg1 = (firebase::database::DataSnapshot *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -2538,7 +2565,7 @@ bool _wrap_DataSnapshot_is_valid_firebase_e442d670bd0d5df6(firebase::database::D
 }
 
 
-intgo _wrap_kTransactionResultSuccess_firebase_e442d670bd0d5df6() {
+intgo _wrap_kTransactionResultSuccess_firebase_e8df7fbc24f322ca() {
   firebase::database::TransactionResult result;
   intgo _swig_go_result;
   
@@ -2550,7 +2577,7 @@ intgo _wrap_kTransactionResultSuccess_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kTransactionResultAbort_firebase_e442d670bd0d5df6() {
+intgo _wrap_kTransactionResultAbort_firebase_e8df7fbc24f322ca() {
   firebase::database::TransactionResult result;
   intgo _swig_go_result;
   
@@ -2562,7 +2589,7 @@ intgo _wrap_kTransactionResultAbort_firebase_e442d670bd0d5df6() {
 }
 
 
-void _wrap_delete_DisconnectionHandler_firebase_e442d670bd0d5df6(firebase::database::DisconnectionHandler *_swig_go_0) {
+void _wrap_delete_DisconnectionHandler_firebase_e8df7fbc24f322ca(firebase::database::DisconnectionHandler *_swig_go_0) {
   firebase::database::DisconnectionHandler *arg1 = (firebase::database::DisconnectionHandler *) 0 ;
   
   arg1 = *(firebase::database::DisconnectionHandler **)&_swig_go_0; 
@@ -2572,7 +2599,7 @@ void _wrap_delete_DisconnectionHandler_firebase_e442d670bd0d5df6(firebase::datab
 }
 
 
-firebase::Future< void > *_wrap_DisconnectionHandler_Cancel_firebase_e442d670bd0d5df6(firebase::database::DisconnectionHandler *_swig_go_0) {
+firebase::Future< void > *_wrap_DisconnectionHandler_Cancel_firebase_e8df7fbc24f322ca(firebase::database::DisconnectionHandler *_swig_go_0) {
   firebase::database::DisconnectionHandler *arg1 = (firebase::database::DisconnectionHandler *) 0 ;
   SwigValueWrapper< firebase::Future< void > > result;
   firebase::Future< void > *_swig_go_result;
@@ -2585,7 +2612,7 @@ firebase::Future< void > *_wrap_DisconnectionHandler_Cancel_firebase_e442d670bd0
 }
 
 
-firebase::Future< void > *_wrap_DisconnectionHandler_CancelLastResult_firebase_e442d670bd0d5df6(firebase::database::DisconnectionHandler *_swig_go_0) {
+firebase::Future< void > *_wrap_DisconnectionHandler_CancelLastResult_firebase_e8df7fbc24f322ca(firebase::database::DisconnectionHandler *_swig_go_0) {
   firebase::database::DisconnectionHandler *arg1 = (firebase::database::DisconnectionHandler *) 0 ;
   SwigValueWrapper< firebase::Future< void > > result;
   firebase::Future< void > *_swig_go_result;
@@ -2598,7 +2625,7 @@ firebase::Future< void > *_wrap_DisconnectionHandler_CancelLastResult_firebase_e
 }
 
 
-firebase::Future< void > *_wrap_DisconnectionHandler_RemoveValue_firebase_e442d670bd0d5df6(firebase::database::DisconnectionHandler *_swig_go_0) {
+firebase::Future< void > *_wrap_DisconnectionHandler_RemoveValue_firebase_e8df7fbc24f322ca(firebase::database::DisconnectionHandler *_swig_go_0) {
   firebase::database::DisconnectionHandler *arg1 = (firebase::database::DisconnectionHandler *) 0 ;
   SwigValueWrapper< firebase::Future< void > > result;
   firebase::Future< void > *_swig_go_result;
@@ -2611,7 +2638,7 @@ firebase::Future< void > *_wrap_DisconnectionHandler_RemoveValue_firebase_e442d6
 }
 
 
-firebase::Future< void > *_wrap_DisconnectionHandler_RemoveValueLastResult_firebase_e442d670bd0d5df6(firebase::database::DisconnectionHandler *_swig_go_0) {
+firebase::Future< void > *_wrap_DisconnectionHandler_RemoveValueLastResult_firebase_e8df7fbc24f322ca(firebase::database::DisconnectionHandler *_swig_go_0) {
   firebase::database::DisconnectionHandler *arg1 = (firebase::database::DisconnectionHandler *) 0 ;
   SwigValueWrapper< firebase::Future< void > > result;
   firebase::Future< void > *_swig_go_result;
@@ -2624,7 +2651,7 @@ firebase::Future< void > *_wrap_DisconnectionHandler_RemoveValueLastResult_fireb
 }
 
 
-firebase::Future< void > *_wrap_DisconnectionHandler_SetValue_firebase_e442d670bd0d5df6(firebase::database::DisconnectionHandler *_swig_go_0, firebase::Variant *_swig_go_1) {
+firebase::Future< void > *_wrap_DisconnectionHandler_SetValue_firebase_e8df7fbc24f322ca(firebase::database::DisconnectionHandler *_swig_go_0, firebase::Variant *_swig_go_1) {
   firebase::database::DisconnectionHandler *arg1 = (firebase::database::DisconnectionHandler *) 0 ;
   firebase::Variant arg2 ;
   firebase::Variant *argp2 ;
@@ -2646,7 +2673,7 @@ firebase::Future< void > *_wrap_DisconnectionHandler_SetValue_firebase_e442d670b
 }
 
 
-firebase::Future< void > *_wrap_DisconnectionHandler_SetValueLastResult_firebase_e442d670bd0d5df6(firebase::database::DisconnectionHandler *_swig_go_0) {
+firebase::Future< void > *_wrap_DisconnectionHandler_SetValueLastResult_firebase_e8df7fbc24f322ca(firebase::database::DisconnectionHandler *_swig_go_0) {
   firebase::database::DisconnectionHandler *arg1 = (firebase::database::DisconnectionHandler *) 0 ;
   SwigValueWrapper< firebase::Future< void > > result;
   firebase::Future< void > *_swig_go_result;
@@ -2659,7 +2686,7 @@ firebase::Future< void > *_wrap_DisconnectionHandler_SetValueLastResult_firebase
 }
 
 
-firebase::Future< void > *_wrap_DisconnectionHandler_SetValueAndPriority_firebase_e442d670bd0d5df6(firebase::database::DisconnectionHandler *_swig_go_0, firebase::Variant *_swig_go_1, firebase::Variant *_swig_go_2) {
+firebase::Future< void > *_wrap_DisconnectionHandler_SetValueAndPriority_firebase_e8df7fbc24f322ca(firebase::database::DisconnectionHandler *_swig_go_0, firebase::Variant *_swig_go_1, firebase::Variant *_swig_go_2) {
   firebase::database::DisconnectionHandler *arg1 = (firebase::database::DisconnectionHandler *) 0 ;
   firebase::Variant arg2 ;
   firebase::Variant arg3 ;
@@ -2690,7 +2717,7 @@ firebase::Future< void > *_wrap_DisconnectionHandler_SetValueAndPriority_firebas
 }
 
 
-firebase::Future< void > *_wrap_DisconnectionHandler_SetValueAndPriorityLastResult_firebase_e442d670bd0d5df6(firebase::database::DisconnectionHandler *_swig_go_0) {
+firebase::Future< void > *_wrap_DisconnectionHandler_SetValueAndPriorityLastResult_firebase_e8df7fbc24f322ca(firebase::database::DisconnectionHandler *_swig_go_0) {
   firebase::database::DisconnectionHandler *arg1 = (firebase::database::DisconnectionHandler *) 0 ;
   SwigValueWrapper< firebase::Future< void > > result;
   firebase::Future< void > *_swig_go_result;
@@ -2703,7 +2730,7 @@ firebase::Future< void > *_wrap_DisconnectionHandler_SetValueAndPriorityLastResu
 }
 
 
-firebase::Future< void > *_wrap_DisconnectionHandler_UpdateChildren__SWIG_0_firebase_e442d670bd0d5df6(firebase::database::DisconnectionHandler *_swig_go_0, firebase::Variant *_swig_go_1) {
+firebase::Future< void > *_wrap_DisconnectionHandler_UpdateChildren__SWIG_0_firebase_e8df7fbc24f322ca(firebase::database::DisconnectionHandler *_swig_go_0, firebase::Variant *_swig_go_1) {
   firebase::database::DisconnectionHandler *arg1 = (firebase::database::DisconnectionHandler *) 0 ;
   firebase::Variant arg2 ;
   firebase::Variant *argp2 ;
@@ -2725,7 +2752,7 @@ firebase::Future< void > *_wrap_DisconnectionHandler_UpdateChildren__SWIG_0_fire
 }
 
 
-firebase::Future< void > *_wrap_DisconnectionHandler_UpdateChildren__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::DisconnectionHandler *_swig_go_0, std::map< std::string,firebase::Variant > *_swig_go_1) {
+firebase::Future< void > *_wrap_DisconnectionHandler_UpdateChildren__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::DisconnectionHandler *_swig_go_0, std::map< std::string,firebase::Variant > *_swig_go_1) {
   firebase::database::DisconnectionHandler *arg1 = (firebase::database::DisconnectionHandler *) 0 ;
   std::map< std::string,firebase::Variant > *arg2 = 0 ;
   SwigValueWrapper< firebase::Future< void > > result;
@@ -2740,7 +2767,7 @@ firebase::Future< void > *_wrap_DisconnectionHandler_UpdateChildren__SWIG_1_fire
 }
 
 
-firebase::Future< void > *_wrap_DisconnectionHandler_UpdateChildrenLastResult_firebase_e442d670bd0d5df6(firebase::database::DisconnectionHandler *_swig_go_0) {
+firebase::Future< void > *_wrap_DisconnectionHandler_UpdateChildrenLastResult_firebase_e8df7fbc24f322ca(firebase::database::DisconnectionHandler *_swig_go_0) {
   firebase::database::DisconnectionHandler *arg1 = (firebase::database::DisconnectionHandler *) 0 ;
   SwigValueWrapper< firebase::Future< void > > result;
   firebase::Future< void > *_swig_go_result;
@@ -2753,7 +2780,7 @@ firebase::Future< void > *_wrap_DisconnectionHandler_UpdateChildrenLastResult_fi
 }
 
 
-intgo _wrap_kInitResultSuccess_firebase_e442d670bd0d5df6() {
+intgo _wrap_kInitResultSuccess_firebase_e8df7fbc24f322ca() {
   firebase::InitResult result;
   intgo _swig_go_result;
   
@@ -2765,7 +2792,7 @@ intgo _wrap_kInitResultSuccess_firebase_e442d670bd0d5df6() {
 }
 
 
-intgo _wrap_kInitResultFailedMissingDependency_firebase_e442d670bd0d5df6() {
+intgo _wrap_kInitResultFailedMissingDependency_firebase_e8df7fbc24f322ca() {
   firebase::InitResult result;
   intgo _swig_go_result;
   
@@ -2777,7 +2804,7 @@ intgo _wrap_kInitResultFailedMissingDependency_firebase_e442d670bd0d5df6() {
 }
 
 
-void _wrap_kDefaultAppName_set_firebase_e442d670bd0d5df6(_gostring_ _swig_go_0) {
+void _wrap_kDefaultAppName_set_firebase_e8df7fbc24f322ca(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   
   
@@ -2799,7 +2826,7 @@ void _wrap_kDefaultAppName_set_firebase_e442d670bd0d5df6(_gostring_ _swig_go_0) 
 }
 
 
-_gostring_ _wrap_kDefaultAppName_get_firebase_e442d670bd0d5df6() {
+_gostring_ _wrap_kDefaultAppName_get_firebase_e8df7fbc24f322ca() {
   char *result = 0 ;
   _gostring_ _swig_go_result;
   
@@ -2810,7 +2837,7 @@ _gostring_ _wrap_kDefaultAppName_get_firebase_e442d670bd0d5df6() {
 }
 
 
-firebase::AppOptions *_wrap_new_AppOptions_firebase_e442d670bd0d5df6() {
+firebase::AppOptions *_wrap_new_AppOptions_firebase_e8df7fbc24f322ca() {
   firebase::AppOptions *result = 0 ;
   firebase::AppOptions *_swig_go_result;
   
@@ -2821,7 +2848,7 @@ firebase::AppOptions *_wrap_new_AppOptions_firebase_e442d670bd0d5df6() {
 }
 
 
-void _wrap_AppOptions_set_app_id_firebase_e442d670bd0d5df6(firebase::AppOptions *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_AppOptions_set_app_id_firebase_e8df7fbc24f322ca(firebase::AppOptions *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::AppOptions *arg1 = (firebase::AppOptions *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -2838,7 +2865,7 @@ void _wrap_AppOptions_set_app_id_firebase_e442d670bd0d5df6(firebase::AppOptions 
 }
 
 
-_gostring_ _wrap_AppOptions_app_id_firebase_e442d670bd0d5df6(firebase::AppOptions *_swig_go_0) {
+_gostring_ _wrap_AppOptions_app_id_firebase_e8df7fbc24f322ca(firebase::AppOptions *_swig_go_0) {
   firebase::AppOptions *arg1 = (firebase::AppOptions *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -2851,7 +2878,7 @@ _gostring_ _wrap_AppOptions_app_id_firebase_e442d670bd0d5df6(firebase::AppOption
 }
 
 
-void _wrap_AppOptions_set_api_key_firebase_e442d670bd0d5df6(firebase::AppOptions *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_AppOptions_set_api_key_firebase_e8df7fbc24f322ca(firebase::AppOptions *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::AppOptions *arg1 = (firebase::AppOptions *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -2868,7 +2895,7 @@ void _wrap_AppOptions_set_api_key_firebase_e442d670bd0d5df6(firebase::AppOptions
 }
 
 
-_gostring_ _wrap_AppOptions_api_key_firebase_e442d670bd0d5df6(firebase::AppOptions *_swig_go_0) {
+_gostring_ _wrap_AppOptions_api_key_firebase_e8df7fbc24f322ca(firebase::AppOptions *_swig_go_0) {
   firebase::AppOptions *arg1 = (firebase::AppOptions *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -2881,7 +2908,7 @@ _gostring_ _wrap_AppOptions_api_key_firebase_e442d670bd0d5df6(firebase::AppOptio
 }
 
 
-void _wrap_AppOptions_set_messaging_sender_id_firebase_e442d670bd0d5df6(firebase::AppOptions *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_AppOptions_set_messaging_sender_id_firebase_e8df7fbc24f322ca(firebase::AppOptions *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::AppOptions *arg1 = (firebase::AppOptions *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -2898,7 +2925,7 @@ void _wrap_AppOptions_set_messaging_sender_id_firebase_e442d670bd0d5df6(firebase
 }
 
 
-_gostring_ _wrap_AppOptions_messaging_sender_id_firebase_e442d670bd0d5df6(firebase::AppOptions *_swig_go_0) {
+_gostring_ _wrap_AppOptions_messaging_sender_id_firebase_e8df7fbc24f322ca(firebase::AppOptions *_swig_go_0) {
   firebase::AppOptions *arg1 = (firebase::AppOptions *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -2911,7 +2938,7 @@ _gostring_ _wrap_AppOptions_messaging_sender_id_firebase_e442d670bd0d5df6(fireba
 }
 
 
-void _wrap_AppOptions_set_database_url_firebase_e442d670bd0d5df6(firebase::AppOptions *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_AppOptions_set_database_url_firebase_e8df7fbc24f322ca(firebase::AppOptions *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::AppOptions *arg1 = (firebase::AppOptions *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -2928,7 +2955,7 @@ void _wrap_AppOptions_set_database_url_firebase_e442d670bd0d5df6(firebase::AppOp
 }
 
 
-_gostring_ _wrap_AppOptions_database_url_firebase_e442d670bd0d5df6(firebase::AppOptions *_swig_go_0) {
+_gostring_ _wrap_AppOptions_database_url_firebase_e8df7fbc24f322ca(firebase::AppOptions *_swig_go_0) {
   firebase::AppOptions *arg1 = (firebase::AppOptions *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -2941,7 +2968,7 @@ _gostring_ _wrap_AppOptions_database_url_firebase_e442d670bd0d5df6(firebase::App
 }
 
 
-void _wrap_AppOptions_set_ga_tracking_id_firebase_e442d670bd0d5df6(firebase::AppOptions *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_AppOptions_set_ga_tracking_id_firebase_e8df7fbc24f322ca(firebase::AppOptions *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::AppOptions *arg1 = (firebase::AppOptions *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -2958,7 +2985,7 @@ void _wrap_AppOptions_set_ga_tracking_id_firebase_e442d670bd0d5df6(firebase::App
 }
 
 
-_gostring_ _wrap_AppOptions_ga_tracking_id_firebase_e442d670bd0d5df6(firebase::AppOptions *_swig_go_0) {
+_gostring_ _wrap_AppOptions_ga_tracking_id_firebase_e8df7fbc24f322ca(firebase::AppOptions *_swig_go_0) {
   firebase::AppOptions *arg1 = (firebase::AppOptions *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -2971,7 +2998,7 @@ _gostring_ _wrap_AppOptions_ga_tracking_id_firebase_e442d670bd0d5df6(firebase::A
 }
 
 
-void _wrap_AppOptions_set_storage_bucket_firebase_e442d670bd0d5df6(firebase::AppOptions *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_AppOptions_set_storage_bucket_firebase_e8df7fbc24f322ca(firebase::AppOptions *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::AppOptions *arg1 = (firebase::AppOptions *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -2988,7 +3015,7 @@ void _wrap_AppOptions_set_storage_bucket_firebase_e442d670bd0d5df6(firebase::App
 }
 
 
-_gostring_ _wrap_AppOptions_storage_bucket_firebase_e442d670bd0d5df6(firebase::AppOptions *_swig_go_0) {
+_gostring_ _wrap_AppOptions_storage_bucket_firebase_e8df7fbc24f322ca(firebase::AppOptions *_swig_go_0) {
   firebase::AppOptions *arg1 = (firebase::AppOptions *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -3001,7 +3028,7 @@ _gostring_ _wrap_AppOptions_storage_bucket_firebase_e442d670bd0d5df6(firebase::A
 }
 
 
-void _wrap_AppOptions_set_project_id_firebase_e442d670bd0d5df6(firebase::AppOptions *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_AppOptions_set_project_id_firebase_e8df7fbc24f322ca(firebase::AppOptions *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::AppOptions *arg1 = (firebase::AppOptions *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -3018,7 +3045,7 @@ void _wrap_AppOptions_set_project_id_firebase_e442d670bd0d5df6(firebase::AppOpti
 }
 
 
-_gostring_ _wrap_AppOptions_project_id_firebase_e442d670bd0d5df6(firebase::AppOptions *_swig_go_0) {
+_gostring_ _wrap_AppOptions_project_id_firebase_e8df7fbc24f322ca(firebase::AppOptions *_swig_go_0) {
   firebase::AppOptions *arg1 = (firebase::AppOptions *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -3031,7 +3058,7 @@ _gostring_ _wrap_AppOptions_project_id_firebase_e442d670bd0d5df6(firebase::AppOp
 }
 
 
-void _wrap_delete_AppOptions_firebase_e442d670bd0d5df6(firebase::AppOptions *_swig_go_0) {
+void _wrap_delete_AppOptions_firebase_e8df7fbc24f322ca(firebase::AppOptions *_swig_go_0) {
   firebase::AppOptions *arg1 = (firebase::AppOptions *) 0 ;
   
   arg1 = *(firebase::AppOptions **)&_swig_go_0; 
@@ -3041,7 +3068,7 @@ void _wrap_delete_AppOptions_firebase_e442d670bd0d5df6(firebase::AppOptions *_sw
 }
 
 
-void _wrap_delete_App_firebase_e442d670bd0d5df6(firebase::App *_swig_go_0) {
+void _wrap_delete_App_firebase_e8df7fbc24f322ca(firebase::App *_swig_go_0) {
   firebase::App *arg1 = (firebase::App *) 0 ;
   
   arg1 = *(firebase::App **)&_swig_go_0; 
@@ -3051,7 +3078,7 @@ void _wrap_delete_App_firebase_e442d670bd0d5df6(firebase::App *_swig_go_0) {
 }
 
 
-firebase::App *_wrap_App_Create__SWIG_0_firebase_e442d670bd0d5df6() {
+firebase::App *_wrap_App_Create__SWIG_0_firebase_e8df7fbc24f322ca() {
   firebase::App *result = 0 ;
   firebase::App *_swig_go_result;
   
@@ -3062,7 +3089,7 @@ firebase::App *_wrap_App_Create__SWIG_0_firebase_e442d670bd0d5df6() {
 }
 
 
-firebase::App *_wrap_App_Create__SWIG_1_firebase_e442d670bd0d5df6(firebase::AppOptions *_swig_go_0) {
+firebase::App *_wrap_App_Create__SWIG_1_firebase_e8df7fbc24f322ca(firebase::AppOptions *_swig_go_0) {
   firebase::AppOptions *arg1 = 0 ;
   firebase::App *result = 0 ;
   firebase::App *_swig_go_result;
@@ -3075,7 +3102,7 @@ firebase::App *_wrap_App_Create__SWIG_1_firebase_e442d670bd0d5df6(firebase::AppO
 }
 
 
-firebase::App *_wrap_App_Create__SWIG_2_firebase_e442d670bd0d5df6(firebase::AppOptions *_swig_go_0, _gostring_ _swig_go_1) {
+firebase::App *_wrap_App_Create__SWIG_2_firebase_e8df7fbc24f322ca(firebase::AppOptions *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::AppOptions *arg1 = 0 ;
   char *arg2 = (char *) 0 ;
   firebase::App *result = 0 ;
@@ -3095,7 +3122,7 @@ firebase::App *_wrap_App_Create__SWIG_2_firebase_e442d670bd0d5df6(firebase::AppO
 }
 
 
-firebase::App *_wrap_App_GetInstance__SWIG_0_firebase_e442d670bd0d5df6() {
+firebase::App *_wrap_App_GetInstance__SWIG_0_firebase_e8df7fbc24f322ca() {
   firebase::App *result = 0 ;
   firebase::App *_swig_go_result;
   
@@ -3106,7 +3133,7 @@ firebase::App *_wrap_App_GetInstance__SWIG_0_firebase_e442d670bd0d5df6() {
 }
 
 
-firebase::App *_wrap_App_GetInstance__SWIG_1_firebase_e442d670bd0d5df6(_gostring_ _swig_go_0) {
+firebase::App *_wrap_App_GetInstance__SWIG_1_firebase_e8df7fbc24f322ca(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   firebase::App *result = 0 ;
   firebase::App *_swig_go_result;
@@ -3124,7 +3151,7 @@ firebase::App *_wrap_App_GetInstance__SWIG_1_firebase_e442d670bd0d5df6(_gostring
 }
 
 
-_gostring_ _wrap_App_name_firebase_e442d670bd0d5df6(firebase::App *_swig_go_0) {
+_gostring_ _wrap_App_name_firebase_e8df7fbc24f322ca(firebase::App *_swig_go_0) {
   firebase::App *arg1 = (firebase::App *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -3137,7 +3164,7 @@ _gostring_ _wrap_App_name_firebase_e442d670bd0d5df6(firebase::App *_swig_go_0) {
 }
 
 
-firebase::AppOptions *_wrap_App_options_firebase_e442d670bd0d5df6(firebase::App *_swig_go_0) {
+firebase::AppOptions *_wrap_App_options_firebase_e8df7fbc24f322ca(firebase::App *_swig_go_0) {
   firebase::App *arg1 = (firebase::App *) 0 ;
   firebase::AppOptions *result = 0 ;
   firebase::AppOptions *_swig_go_result;
@@ -3150,7 +3177,7 @@ firebase::AppOptions *_wrap_App_options_firebase_e442d670bd0d5df6(firebase::App 
 }
 
 
-void _wrap_delete_ValueListener_firebase_e442d670bd0d5df6(firebase::database::ValueListener *_swig_go_0) {
+void _wrap_delete_ValueListener_firebase_e8df7fbc24f322ca(firebase::database::ValueListener *_swig_go_0) {
   firebase::database::ValueListener *arg1 = (firebase::database::ValueListener *) 0 ;
   
   arg1 = *(firebase::database::ValueListener **)&_swig_go_0; 
@@ -3160,7 +3187,7 @@ void _wrap_delete_ValueListener_firebase_e442d670bd0d5df6(firebase::database::Va
 }
 
 
-void _wrap_ValueListener_OnValueChanged_firebase_e442d670bd0d5df6(firebase::database::ValueListener *_swig_go_0, firebase::database::DataSnapshot *_swig_go_1) {
+void _wrap_ValueListener_OnValueChanged_firebase_e8df7fbc24f322ca(firebase::database::ValueListener *_swig_go_0, firebase::database::DataSnapshot *_swig_go_1) {
   firebase::database::ValueListener *arg1 = (firebase::database::ValueListener *) 0 ;
   firebase::database::DataSnapshot *arg2 = 0 ;
   
@@ -3172,7 +3199,7 @@ void _wrap_ValueListener_OnValueChanged_firebase_e442d670bd0d5df6(firebase::data
 }
 
 
-void _wrap_ValueListener_OnCancelled_firebase_e442d670bd0d5df6(firebase::database::ValueListener *_swig_go_0, firebase::database::Error *_swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_ValueListener_OnCancelled_firebase_e8df7fbc24f322ca(firebase::database::ValueListener *_swig_go_0, firebase::database::Error *_swig_go_1, _gostring_ _swig_go_2) {
   firebase::database::ValueListener *arg1 = (firebase::database::ValueListener *) 0 ;
   firebase::database::Error *arg2 = 0 ;
   char *arg3 = (char *) 0 ;
@@ -3191,7 +3218,7 @@ void _wrap_ValueListener_OnCancelled_firebase_e442d670bd0d5df6(firebase::databas
 }
 
 
-void _wrap_delete_ChildListener_firebase_e442d670bd0d5df6(firebase::database::ChildListener *_swig_go_0) {
+void _wrap_delete_ChildListener_firebase_e8df7fbc24f322ca(firebase::database::ChildListener *_swig_go_0) {
   firebase::database::ChildListener *arg1 = (firebase::database::ChildListener *) 0 ;
   
   arg1 = *(firebase::database::ChildListener **)&_swig_go_0; 
@@ -3201,7 +3228,7 @@ void _wrap_delete_ChildListener_firebase_e442d670bd0d5df6(firebase::database::Ch
 }
 
 
-void _wrap_ChildListener_OnChildAdded_firebase_e442d670bd0d5df6(firebase::database::ChildListener *_swig_go_0, firebase::database::DataSnapshot *_swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_ChildListener_OnChildAdded_firebase_e8df7fbc24f322ca(firebase::database::ChildListener *_swig_go_0, firebase::database::DataSnapshot *_swig_go_1, _gostring_ _swig_go_2) {
   firebase::database::ChildListener *arg1 = (firebase::database::ChildListener *) 0 ;
   firebase::database::DataSnapshot *arg2 = 0 ;
   char *arg3 = (char *) 0 ;
@@ -3220,7 +3247,7 @@ void _wrap_ChildListener_OnChildAdded_firebase_e442d670bd0d5df6(firebase::databa
 }
 
 
-void _wrap_ChildListener_OnChildChanged_firebase_e442d670bd0d5df6(firebase::database::ChildListener *_swig_go_0, firebase::database::DataSnapshot *_swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_ChildListener_OnChildChanged_firebase_e8df7fbc24f322ca(firebase::database::ChildListener *_swig_go_0, firebase::database::DataSnapshot *_swig_go_1, _gostring_ _swig_go_2) {
   firebase::database::ChildListener *arg1 = (firebase::database::ChildListener *) 0 ;
   firebase::database::DataSnapshot *arg2 = 0 ;
   char *arg3 = (char *) 0 ;
@@ -3239,7 +3266,7 @@ void _wrap_ChildListener_OnChildChanged_firebase_e442d670bd0d5df6(firebase::data
 }
 
 
-void _wrap_ChildListener_OnChildMoved_firebase_e442d670bd0d5df6(firebase::database::ChildListener *_swig_go_0, firebase::database::DataSnapshot *_swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_ChildListener_OnChildMoved_firebase_e8df7fbc24f322ca(firebase::database::ChildListener *_swig_go_0, firebase::database::DataSnapshot *_swig_go_1, _gostring_ _swig_go_2) {
   firebase::database::ChildListener *arg1 = (firebase::database::ChildListener *) 0 ;
   firebase::database::DataSnapshot *arg2 = 0 ;
   char *arg3 = (char *) 0 ;
@@ -3258,7 +3285,7 @@ void _wrap_ChildListener_OnChildMoved_firebase_e442d670bd0d5df6(firebase::databa
 }
 
 
-void _wrap_ChildListener_OnChildRemoved_firebase_e442d670bd0d5df6(firebase::database::ChildListener *_swig_go_0, firebase::database::DataSnapshot *_swig_go_1) {
+void _wrap_ChildListener_OnChildRemoved_firebase_e8df7fbc24f322ca(firebase::database::ChildListener *_swig_go_0, firebase::database::DataSnapshot *_swig_go_1) {
   firebase::database::ChildListener *arg1 = (firebase::database::ChildListener *) 0 ;
   firebase::database::DataSnapshot *arg2 = 0 ;
   
@@ -3270,7 +3297,7 @@ void _wrap_ChildListener_OnChildRemoved_firebase_e442d670bd0d5df6(firebase::data
 }
 
 
-void _wrap_ChildListener_OnCancelled_firebase_e442d670bd0d5df6(firebase::database::ChildListener *_swig_go_0, firebase::database::Error *_swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_ChildListener_OnCancelled_firebase_e8df7fbc24f322ca(firebase::database::ChildListener *_swig_go_0, firebase::database::Error *_swig_go_1, _gostring_ _swig_go_2) {
   firebase::database::ChildListener *arg1 = (firebase::database::ChildListener *) 0 ;
   firebase::database::Error *arg2 = 0 ;
   char *arg3 = (char *) 0 ;
@@ -3289,7 +3316,7 @@ void _wrap_ChildListener_OnCancelled_firebase_e442d670bd0d5df6(firebase::databas
 }
 
 
-firebase::database::Query *_wrap_new_Query__SWIG_0_firebase_e442d670bd0d5df6() {
+firebase::database::Query *_wrap_new_Query__SWIG_0_firebase_e8df7fbc24f322ca() {
   firebase::database::Query *result = 0 ;
   firebase::database::Query *_swig_go_result;
   
@@ -3300,7 +3327,7 @@ firebase::database::Query *_wrap_new_Query__SWIG_0_firebase_e442d670bd0d5df6() {
 }
 
 
-firebase::database::Query *_wrap_new_Query__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0) {
+firebase::database::Query *_wrap_new_Query__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0) {
   firebase::database::Query *arg1 = 0 ;
   firebase::database::Query *result = 0 ;
   firebase::database::Query *_swig_go_result;
@@ -3313,7 +3340,7 @@ firebase::database::Query *_wrap_new_Query__SWIG_1_firebase_e442d670bd0d5df6(fir
 }
 
 
-void _wrap_delete_Query_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0) {
+void _wrap_delete_Query_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   
   arg1 = *(firebase::database::Query **)&_swig_go_0; 
@@ -3323,7 +3350,7 @@ void _wrap_delete_Query_firebase_e442d670bd0d5df6(firebase::database::Query *_sw
 }
 
 
-firebase::Future< firebase::database::DataSnapshot > *_wrap_Query_GetValue_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0) {
+firebase::Future< firebase::database::DataSnapshot > *_wrap_Query_GetValue_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   SwigValueWrapper< firebase::Future< firebase::database::DataSnapshot > > result;
   firebase::Future< firebase::database::DataSnapshot > *_swig_go_result;
@@ -3336,7 +3363,7 @@ firebase::Future< firebase::database::DataSnapshot > *_wrap_Query_GetValue_fireb
 }
 
 
-firebase::Future< firebase::database::DataSnapshot > *_wrap_Query_GetValueLastResult_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0) {
+firebase::Future< firebase::database::DataSnapshot > *_wrap_Query_GetValueLastResult_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   SwigValueWrapper< firebase::Future< firebase::database::DataSnapshot > > result;
   firebase::Future< firebase::database::DataSnapshot > *_swig_go_result;
@@ -3349,7 +3376,7 @@ firebase::Future< firebase::database::DataSnapshot > *_wrap_Query_GetValueLastRe
 }
 
 
-void _wrap_Query_AddValueListener_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0, firebase::database::ValueListener *_swig_go_1) {
+void _wrap_Query_AddValueListener_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0, firebase::database::ValueListener *_swig_go_1) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   firebase::database::ValueListener *arg2 = (firebase::database::ValueListener *) 0 ;
   
@@ -3361,7 +3388,7 @@ void _wrap_Query_AddValueListener_firebase_e442d670bd0d5df6(firebase::database::
 }
 
 
-void _wrap_Query_RemoveValueListener_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0, firebase::database::ValueListener *_swig_go_1) {
+void _wrap_Query_RemoveValueListener_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0, firebase::database::ValueListener *_swig_go_1) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   firebase::database::ValueListener *arg2 = (firebase::database::ValueListener *) 0 ;
   
@@ -3373,7 +3400,7 @@ void _wrap_Query_RemoveValueListener_firebase_e442d670bd0d5df6(firebase::databas
 }
 
 
-void _wrap_Query_RemoveAllValueListeners_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0) {
+void _wrap_Query_RemoveAllValueListeners_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   
   arg1 = *(firebase::database::Query **)&_swig_go_0; 
@@ -3383,7 +3410,7 @@ void _wrap_Query_RemoveAllValueListeners_firebase_e442d670bd0d5df6(firebase::dat
 }
 
 
-void _wrap_Query_AddChildListener_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0, firebase::database::ChildListener *_swig_go_1) {
+void _wrap_Query_AddChildListener_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0, firebase::database::ChildListener *_swig_go_1) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   firebase::database::ChildListener *arg2 = (firebase::database::ChildListener *) 0 ;
   
@@ -3395,7 +3422,7 @@ void _wrap_Query_AddChildListener_firebase_e442d670bd0d5df6(firebase::database::
 }
 
 
-void _wrap_Query_RemoveChildListener_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0, firebase::database::ChildListener *_swig_go_1) {
+void _wrap_Query_RemoveChildListener_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0, firebase::database::ChildListener *_swig_go_1) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   firebase::database::ChildListener *arg2 = (firebase::database::ChildListener *) 0 ;
   
@@ -3407,7 +3434,7 @@ void _wrap_Query_RemoveChildListener_firebase_e442d670bd0d5df6(firebase::databas
 }
 
 
-void _wrap_Query_RemoveAllChildListeners_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0) {
+void _wrap_Query_RemoveAllChildListeners_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   
   arg1 = *(firebase::database::Query **)&_swig_go_0; 
@@ -3417,7 +3444,7 @@ void _wrap_Query_RemoveAllChildListeners_firebase_e442d670bd0d5df6(firebase::dat
 }
 
 
-firebase::database::DatabaseReference *_wrap_Query_GetReference_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0) {
+firebase::database::DatabaseReference *_wrap_Query_GetReference_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   firebase::database::DatabaseReference result;
   firebase::database::DatabaseReference *_swig_go_result;
@@ -3430,7 +3457,7 @@ firebase::database::DatabaseReference *_wrap_Query_GetReference_firebase_e442d67
 }
 
 
-void _wrap_Query_SetKeepSynchronized_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0, bool _swig_go_1) {
+void _wrap_Query_SetKeepSynchronized_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0, bool _swig_go_1) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   bool arg2 ;
   
@@ -3442,7 +3469,7 @@ void _wrap_Query_SetKeepSynchronized_firebase_e442d670bd0d5df6(firebase::databas
 }
 
 
-firebase::database::Query *_wrap_Query_OrderByChild__SWIG_0_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0, _gostring_ _swig_go_1) {
+firebase::database::Query *_wrap_Query_OrderByChild__SWIG_0_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   char *arg2 = (char *) 0 ;
   firebase::database::Query result;
@@ -3462,14 +3489,17 @@ firebase::database::Query *_wrap_Query_OrderByChild__SWIG_0_firebase_e442d670bd0
 }
 
 
-firebase::database::Query *_wrap_Query_OrderByChild__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0, std::string *_swig_go_1) {
+firebase::database::Query *_wrap_Query_OrderByChild__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   std::string *arg2 = 0 ;
   firebase::database::Query result;
   firebase::database::Query *_swig_go_result;
   
   arg1 = *(firebase::database::Query **)&_swig_go_0; 
-  arg2 = *(std::string **)&_swig_go_1; 
+  
+  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
+  arg2 = &arg2_str;
+  
   
   result = (arg1)->OrderByChild((std::string const &)*arg2);
   *(firebase::database::Query **)&_swig_go_result = new firebase::database::Query(result); 
@@ -3477,7 +3507,7 @@ firebase::database::Query *_wrap_Query_OrderByChild__SWIG_1_firebase_e442d670bd0
 }
 
 
-firebase::database::Query *_wrap_Query_OrderByKey_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0) {
+firebase::database::Query *_wrap_Query_OrderByKey_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   firebase::database::Query result;
   firebase::database::Query *_swig_go_result;
@@ -3490,7 +3520,7 @@ firebase::database::Query *_wrap_Query_OrderByKey_firebase_e442d670bd0d5df6(fire
 }
 
 
-firebase::database::Query *_wrap_Query_OrderByPriority_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0) {
+firebase::database::Query *_wrap_Query_OrderByPriority_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   firebase::database::Query result;
   firebase::database::Query *_swig_go_result;
@@ -3503,7 +3533,7 @@ firebase::database::Query *_wrap_Query_OrderByPriority_firebase_e442d670bd0d5df6
 }
 
 
-firebase::database::Query *_wrap_Query_OrderByValue_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0) {
+firebase::database::Query *_wrap_Query_OrderByValue_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   firebase::database::Query result;
   firebase::database::Query *_swig_go_result;
@@ -3516,7 +3546,7 @@ firebase::database::Query *_wrap_Query_OrderByValue_firebase_e442d670bd0d5df6(fi
 }
 
 
-firebase::database::Query *_wrap_Query_StartAt__SWIG_0_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0, firebase::Variant *_swig_go_1) {
+firebase::database::Query *_wrap_Query_StartAt__SWIG_0_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0, firebase::Variant *_swig_go_1) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   firebase::Variant arg2 ;
   firebase::Variant *argp2 ;
@@ -3538,7 +3568,7 @@ firebase::database::Query *_wrap_Query_StartAt__SWIG_0_firebase_e442d670bd0d5df6
 }
 
 
-firebase::database::Query *_wrap_Query_StartAt__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0, firebase::Variant *_swig_go_1, _gostring_ _swig_go_2) {
+firebase::database::Query *_wrap_Query_StartAt__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0, firebase::Variant *_swig_go_1, _gostring_ _swig_go_2) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   firebase::Variant arg2 ;
   char *arg3 = (char *) 0 ;
@@ -3567,7 +3597,7 @@ firebase::database::Query *_wrap_Query_StartAt__SWIG_1_firebase_e442d670bd0d5df6
 }
 
 
-firebase::database::Query *_wrap_Query_EndAt__SWIG_0_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0, firebase::Variant *_swig_go_1) {
+firebase::database::Query *_wrap_Query_EndAt__SWIG_0_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0, firebase::Variant *_swig_go_1) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   firebase::Variant arg2 ;
   firebase::Variant *argp2 ;
@@ -3589,7 +3619,7 @@ firebase::database::Query *_wrap_Query_EndAt__SWIG_0_firebase_e442d670bd0d5df6(f
 }
 
 
-firebase::database::Query *_wrap_Query_EndAt__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0, firebase::Variant *_swig_go_1, _gostring_ _swig_go_2) {
+firebase::database::Query *_wrap_Query_EndAt__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0, firebase::Variant *_swig_go_1, _gostring_ _swig_go_2) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   firebase::Variant arg2 ;
   char *arg3 = (char *) 0 ;
@@ -3618,7 +3648,7 @@ firebase::database::Query *_wrap_Query_EndAt__SWIG_1_firebase_e442d670bd0d5df6(f
 }
 
 
-firebase::database::Query *_wrap_Query_EqualTo__SWIG_0_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0, firebase::Variant *_swig_go_1) {
+firebase::database::Query *_wrap_Query_EqualTo__SWIG_0_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0, firebase::Variant *_swig_go_1) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   firebase::Variant arg2 ;
   firebase::Variant *argp2 ;
@@ -3640,7 +3670,7 @@ firebase::database::Query *_wrap_Query_EqualTo__SWIG_0_firebase_e442d670bd0d5df6
 }
 
 
-firebase::database::Query *_wrap_Query_EqualTo__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0, firebase::Variant *_swig_go_1, _gostring_ _swig_go_2) {
+firebase::database::Query *_wrap_Query_EqualTo__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0, firebase::Variant *_swig_go_1, _gostring_ _swig_go_2) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   firebase::Variant arg2 ;
   char *arg3 = (char *) 0 ;
@@ -3669,7 +3699,7 @@ firebase::database::Query *_wrap_Query_EqualTo__SWIG_1_firebase_e442d670bd0d5df6
 }
 
 
-firebase::database::Query *_wrap_Query_LimitToFirst_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0, long long _swig_go_1) {
+firebase::database::Query *_wrap_Query_LimitToFirst_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0, long long _swig_go_1) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   size_t arg2 ;
   firebase::database::Query result;
@@ -3684,7 +3714,7 @@ firebase::database::Query *_wrap_Query_LimitToFirst_firebase_e442d670bd0d5df6(fi
 }
 
 
-firebase::database::Query *_wrap_Query_LimitToLast_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0, long long _swig_go_1) {
+firebase::database::Query *_wrap_Query_LimitToLast_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0, long long _swig_go_1) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   size_t arg2 ;
   firebase::database::Query result;
@@ -3699,7 +3729,7 @@ firebase::database::Query *_wrap_Query_LimitToLast_firebase_e442d670bd0d5df6(fir
 }
 
 
-bool _wrap_Query_is_valid_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0) {
+bool _wrap_Query_is_valid_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -3712,7 +3742,7 @@ bool _wrap_Query_is_valid_firebase_e442d670bd0d5df6(firebase::database::Query *_
 }
 
 
-bool _wrap_Query_IsValid_firebase_e442d670bd0d5df6(firebase::database::Query *_swig_go_0) {
+bool _wrap_Query_IsValid_firebase_e8df7fbc24f322ca(firebase::database::Query *_swig_go_0) {
   firebase::database::Query *arg1 = (firebase::database::Query *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -3725,7 +3755,7 @@ bool _wrap_Query_IsValid_firebase_e442d670bd0d5df6(firebase::database::Query *_s
 }
 
 
-firebase::database::DatabaseReference *_wrap_new_DatabaseReference__SWIG_0_firebase_e442d670bd0d5df6() {
+firebase::database::DatabaseReference *_wrap_new_DatabaseReference__SWIG_0_firebase_e8df7fbc24f322ca() {
   firebase::database::DatabaseReference *result = 0 ;
   firebase::database::DatabaseReference *_swig_go_result;
   
@@ -3736,7 +3766,7 @@ firebase::database::DatabaseReference *_wrap_new_DatabaseReference__SWIG_0_fireb
 }
 
 
-void _wrap_delete_DatabaseReference_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+void _wrap_delete_DatabaseReference_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   
   arg1 = *(firebase::database::DatabaseReference **)&_swig_go_0; 
@@ -3746,7 +3776,7 @@ void _wrap_delete_DatabaseReference_firebase_e442d670bd0d5df6(firebase::database
 }
 
 
-firebase::database::DatabaseReference *_wrap_new_DatabaseReference__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::database::DatabaseReference *_wrap_new_DatabaseReference__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = 0 ;
   firebase::database::DatabaseReference *result = 0 ;
   firebase::database::DatabaseReference *_swig_go_result;
@@ -3759,7 +3789,7 @@ firebase::database::DatabaseReference *_wrap_new_DatabaseReference__SWIG_1_fireb
 }
 
 
-firebase::database::Database *_wrap_DatabaseReference_database_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::database::Database *_wrap_DatabaseReference_database_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::database::Database *result = 0 ;
   firebase::database::Database *_swig_go_result;
@@ -3772,7 +3802,7 @@ firebase::database::Database *_wrap_DatabaseReference_database_firebase_e442d670
 }
 
 
-firebase::database::Database *_wrap_DatabaseReference_GetDatabase_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::database::Database *_wrap_DatabaseReference_GetDatabase_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::database::Database *result = 0 ;
   firebase::database::Database *_swig_go_result;
@@ -3785,7 +3815,7 @@ firebase::database::Database *_wrap_DatabaseReference_GetDatabase_firebase_e442d
 }
 
 
-_gostring_ _wrap_DatabaseReference_key_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+_gostring_ _wrap_DatabaseReference_key_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -3798,7 +3828,7 @@ _gostring_ _wrap_DatabaseReference_key_firebase_e442d670bd0d5df6(firebase::datab
 }
 
 
-_gostring_ _wrap_DatabaseReference_GetKey_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+_gostring_ _wrap_DatabaseReference_GetKey_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -3811,33 +3841,33 @@ _gostring_ _wrap_DatabaseReference_GetKey_firebase_e442d670bd0d5df6(firebase::da
 }
 
 
-std::string *_wrap_DatabaseReference_key_string_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+_gostring_ _wrap_DatabaseReference_key_string_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   std::string result;
-  std::string *_swig_go_result;
+  _gostring_ _swig_go_result;
   
   arg1 = *(firebase::database::DatabaseReference **)&_swig_go_0; 
   
   result = ((firebase::database::DatabaseReference const *)arg1)->key_string();
-  *(std::string **)&_swig_go_result = new std::string(result); 
+  _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-std::string *_wrap_DatabaseReference_GetKeyString_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+_gostring_ _wrap_DatabaseReference_GetKeyString_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   std::string result;
-  std::string *_swig_go_result;
+  _gostring_ _swig_go_result;
   
   arg1 = *(firebase::database::DatabaseReference **)&_swig_go_0; 
   
   result = ((firebase::database::DatabaseReference const *)arg1)->GetKeyString();
-  *(std::string **)&_swig_go_result = new std::string(result); 
+  _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-bool _wrap_DatabaseReference_is_root_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+bool _wrap_DatabaseReference_is_root_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -3850,7 +3880,7 @@ bool _wrap_DatabaseReference_is_root_firebase_e442d670bd0d5df6(firebase::databas
 }
 
 
-bool _wrap_DatabaseReference_IsRoot_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+bool _wrap_DatabaseReference_IsRoot_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -3863,7 +3893,7 @@ bool _wrap_DatabaseReference_IsRoot_firebase_e442d670bd0d5df6(firebase::database
 }
 
 
-bool _wrap_DatabaseReference_is_valid_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+bool _wrap_DatabaseReference_is_valid_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -3876,7 +3906,7 @@ bool _wrap_DatabaseReference_is_valid_firebase_e442d670bd0d5df6(firebase::databa
 }
 
 
-bool _wrap_DatabaseReference_IsValid_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+bool _wrap_DatabaseReference_IsValid_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -3889,7 +3919,7 @@ bool _wrap_DatabaseReference_IsValid_firebase_e442d670bd0d5df6(firebase::databas
 }
 
 
-firebase::database::DatabaseReference *_wrap_DatabaseReference_GetParent_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::database::DatabaseReference *_wrap_DatabaseReference_GetParent_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::database::DatabaseReference result;
   firebase::database::DatabaseReference *_swig_go_result;
@@ -3902,7 +3932,7 @@ firebase::database::DatabaseReference *_wrap_DatabaseReference_GetParent_firebas
 }
 
 
-firebase::database::DatabaseReference *_wrap_DatabaseReference_GetRoot_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::database::DatabaseReference *_wrap_DatabaseReference_GetRoot_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::database::DatabaseReference result;
   firebase::database::DatabaseReference *_swig_go_result;
@@ -3915,7 +3945,7 @@ firebase::database::DatabaseReference *_wrap_DatabaseReference_GetRoot_firebase_
 }
 
 
-firebase::database::DatabaseReference *_wrap_DatabaseReference_Child__SWIG_0_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, _gostring_ _swig_go_1) {
+firebase::database::DatabaseReference *_wrap_DatabaseReference_Child__SWIG_0_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   char *arg2 = (char *) 0 ;
   firebase::database::DatabaseReference result;
@@ -3935,14 +3965,17 @@ firebase::database::DatabaseReference *_wrap_DatabaseReference_Child__SWIG_0_fir
 }
 
 
-firebase::database::DatabaseReference *_wrap_DatabaseReference_Child__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, std::string *_swig_go_1) {
+firebase::database::DatabaseReference *_wrap_DatabaseReference_Child__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   std::string *arg2 = 0 ;
   firebase::database::DatabaseReference result;
   firebase::database::DatabaseReference *_swig_go_result;
   
   arg1 = *(firebase::database::DatabaseReference **)&_swig_go_0; 
-  arg2 = *(std::string **)&_swig_go_1; 
+  
+  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
+  arg2 = &arg2_str;
+  
   
   result = ((firebase::database::DatabaseReference const *)arg1)->Child((std::string const &)*arg2);
   *(firebase::database::DatabaseReference **)&_swig_go_result = new firebase::database::DatabaseReference(result); 
@@ -3950,7 +3983,7 @@ firebase::database::DatabaseReference *_wrap_DatabaseReference_Child__SWIG_1_fir
 }
 
 
-firebase::database::DatabaseReference *_wrap_DatabaseReference_PushChild_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::database::DatabaseReference *_wrap_DatabaseReference_PushChild_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::database::DatabaseReference result;
   firebase::database::DatabaseReference *_swig_go_result;
@@ -3963,7 +3996,7 @@ firebase::database::DatabaseReference *_wrap_DatabaseReference_PushChild_firebas
 }
 
 
-firebase::Future< void > *_wrap_DatabaseReference_RemoveValue_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::Future< void > *_wrap_DatabaseReference_RemoveValue_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   SwigValueWrapper< firebase::Future< void > > result;
   firebase::Future< void > *_swig_go_result;
@@ -3976,7 +4009,7 @@ firebase::Future< void > *_wrap_DatabaseReference_RemoveValue_firebase_e442d670b
 }
 
 
-firebase::Future< void > *_wrap_DatabaseReference_RemoveValueLastResult_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::Future< void > *_wrap_DatabaseReference_RemoveValueLastResult_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   SwigValueWrapper< firebase::Future< void > > result;
   firebase::Future< void > *_swig_go_result;
@@ -3989,7 +4022,7 @@ firebase::Future< void > *_wrap_DatabaseReference_RemoveValueLastResult_firebase
 }
 
 
-firebase::Future< firebase::database::DataSnapshot > *_wrap_DatabaseReference_RunTransaction__SWIG_0_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, void** _swig_go_1, bool _swig_go_2) {
+firebase::Future< firebase::database::DataSnapshot > *_wrap_DatabaseReference_RunTransaction__SWIG_0_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, void** _swig_go_1, bool _swig_go_2) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::database::DoTransaction *arg2 = (firebase::database::DoTransaction *) 0 ;
   bool arg3 ;
@@ -4006,7 +4039,7 @@ firebase::Future< firebase::database::DataSnapshot > *_wrap_DatabaseReference_Ru
 }
 
 
-firebase::Future< firebase::database::DataSnapshot > *_wrap_DatabaseReference_RunTransaction__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, void** _swig_go_1) {
+firebase::Future< firebase::database::DataSnapshot > *_wrap_DatabaseReference_RunTransaction__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, void** _swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::database::DoTransaction *arg2 = (firebase::database::DoTransaction *) 0 ;
   SwigValueWrapper< firebase::Future< firebase::database::DataSnapshot > > result;
@@ -4021,7 +4054,7 @@ firebase::Future< firebase::database::DataSnapshot > *_wrap_DatabaseReference_Ru
 }
 
 
-firebase::Future< firebase::database::DataSnapshot > *_wrap_DatabaseReference_RunTransactionLastResult_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::Future< firebase::database::DataSnapshot > *_wrap_DatabaseReference_RunTransactionLastResult_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   SwigValueWrapper< firebase::Future< firebase::database::DataSnapshot > > result;
   firebase::Future< firebase::database::DataSnapshot > *_swig_go_result;
@@ -4034,7 +4067,7 @@ firebase::Future< firebase::database::DataSnapshot > *_wrap_DatabaseReference_Ru
 }
 
 
-firebase::Future< void > *_wrap_DatabaseReference_SetPriority_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1) {
+firebase::Future< void > *_wrap_DatabaseReference_SetPriority_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::Variant arg2 ;
   firebase::Variant *argp2 ;
@@ -4056,7 +4089,7 @@ firebase::Future< void > *_wrap_DatabaseReference_SetPriority_firebase_e442d670b
 }
 
 
-firebase::Future< void > *_wrap_DatabaseReference_SetPriorityLastResult_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::Future< void > *_wrap_DatabaseReference_SetPriorityLastResult_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   SwigValueWrapper< firebase::Future< void > > result;
   firebase::Future< void > *_swig_go_result;
@@ -4069,7 +4102,7 @@ firebase::Future< void > *_wrap_DatabaseReference_SetPriorityLastResult_firebase
 }
 
 
-firebase::Future< void > *_wrap_DatabaseReference_SetValue_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1) {
+firebase::Future< void > *_wrap_DatabaseReference_SetValue_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::Variant arg2 ;
   firebase::Variant *argp2 ;
@@ -4091,7 +4124,7 @@ firebase::Future< void > *_wrap_DatabaseReference_SetValue_firebase_e442d670bd0d
 }
 
 
-firebase::Future< void > *_wrap_DatabaseReference_SetValueLastResult_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::Future< void > *_wrap_DatabaseReference_SetValueLastResult_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   SwigValueWrapper< firebase::Future< void > > result;
   firebase::Future< void > *_swig_go_result;
@@ -4104,7 +4137,7 @@ firebase::Future< void > *_wrap_DatabaseReference_SetValueLastResult_firebase_e4
 }
 
 
-firebase::Future< void > *_wrap_DatabaseReference_SetValueAndPriority_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1, firebase::Variant *_swig_go_2) {
+firebase::Future< void > *_wrap_DatabaseReference_SetValueAndPriority_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1, firebase::Variant *_swig_go_2) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::Variant arg2 ;
   firebase::Variant arg3 ;
@@ -4135,7 +4168,7 @@ firebase::Future< void > *_wrap_DatabaseReference_SetValueAndPriority_firebase_e
 }
 
 
-firebase::Future< void > *_wrap_DatabaseReference_SetValueAndPriorityLastResult_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::Future< void > *_wrap_DatabaseReference_SetValueAndPriorityLastResult_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   SwigValueWrapper< firebase::Future< void > > result;
   firebase::Future< void > *_swig_go_result;
@@ -4148,7 +4181,7 @@ firebase::Future< void > *_wrap_DatabaseReference_SetValueAndPriorityLastResult_
 }
 
 
-firebase::Future< void > *_wrap_DatabaseReference_UpdateChildren__SWIG_0_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1) {
+firebase::Future< void > *_wrap_DatabaseReference_UpdateChildren__SWIG_0_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::Variant arg2 ;
   firebase::Variant *argp2 ;
@@ -4170,7 +4203,7 @@ firebase::Future< void > *_wrap_DatabaseReference_UpdateChildren__SWIG_0_firebas
 }
 
 
-firebase::Future< void > *_wrap_DatabaseReference_UpdateChildren__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, std::map< std::string,firebase::Variant > *_swig_go_1) {
+firebase::Future< void > *_wrap_DatabaseReference_UpdateChildren__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, std::map< std::string,firebase::Variant > *_swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   std::map< std::string,firebase::Variant > *arg2 = 0 ;
   SwigValueWrapper< firebase::Future< void > > result;
@@ -4185,7 +4218,7 @@ firebase::Future< void > *_wrap_DatabaseReference_UpdateChildren__SWIG_1_firebas
 }
 
 
-firebase::Future< void > *_wrap_DatabaseReference_UpdateChildrenLastResult_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::Future< void > *_wrap_DatabaseReference_UpdateChildrenLastResult_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   SwigValueWrapper< firebase::Future< void > > result;
   firebase::Future< void > *_swig_go_result;
@@ -4198,33 +4231,33 @@ firebase::Future< void > *_wrap_DatabaseReference_UpdateChildrenLastResult_fireb
 }
 
 
-std::string *_wrap_DatabaseReference_url_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+_gostring_ _wrap_DatabaseReference_url_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   std::string result;
-  std::string *_swig_go_result;
+  _gostring_ _swig_go_result;
   
   arg1 = *(firebase::database::DatabaseReference **)&_swig_go_0; 
   
   result = ((firebase::database::DatabaseReference const *)arg1)->url();
-  *(std::string **)&_swig_go_result = new std::string(result); 
+  _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-std::string *_wrap_DatabaseReference_GetUrl_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+_gostring_ _wrap_DatabaseReference_GetUrl_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   std::string result;
-  std::string *_swig_go_result;
+  _gostring_ _swig_go_result;
   
   arg1 = *(firebase::database::DatabaseReference **)&_swig_go_0; 
   
   result = ((firebase::database::DatabaseReference const *)arg1)->GetUrl();
-  *(std::string **)&_swig_go_result = new std::string(result); 
+  _swig_go_result = Swig_AllocateString((&result)->data(), (&result)->length()); 
   return _swig_go_result;
 }
 
 
-firebase::database::DisconnectionHandler *_wrap_DatabaseReference_OnDisconnect_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::database::DisconnectionHandler *_wrap_DatabaseReference_OnDisconnect_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::database::DisconnectionHandler *result = 0 ;
   firebase::database::DisconnectionHandler *_swig_go_result;
@@ -4237,7 +4270,7 @@ firebase::database::DisconnectionHandler *_wrap_DatabaseReference_OnDisconnect_f
 }
 
 
-void _wrap_DatabaseReference_GoOffline_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+void _wrap_DatabaseReference_GoOffline_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   
   arg1 = *(firebase::database::DatabaseReference **)&_swig_go_0; 
@@ -4247,7 +4280,7 @@ void _wrap_DatabaseReference_GoOffline_firebase_e442d670bd0d5df6(firebase::datab
 }
 
 
-void _wrap_DatabaseReference_GoOnline_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+void _wrap_DatabaseReference_GoOnline_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   
   arg1 = *(firebase::database::DatabaseReference **)&_swig_go_0; 
@@ -4257,7 +4290,7 @@ void _wrap_DatabaseReference_GoOnline_firebase_e442d670bd0d5df6(firebase::databa
 }
 
 
-firebase::Future< firebase::database::DataSnapshot > *_wrap_DatabaseReference_GetValue_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::Future< firebase::database::DataSnapshot > *_wrap_DatabaseReference_GetValue_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   SwigValueWrapper< firebase::Future< firebase::database::DataSnapshot > > result;
   firebase::Future< firebase::database::DataSnapshot > *_swig_go_result;
@@ -4271,7 +4304,7 @@ firebase::Future< firebase::database::DataSnapshot > *_wrap_DatabaseReference_Ge
 }
 
 
-firebase::Future< firebase::database::DataSnapshot > *_wrap_DatabaseReference_GetValueLastResult_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::Future< firebase::database::DataSnapshot > *_wrap_DatabaseReference_GetValueLastResult_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   SwigValueWrapper< firebase::Future< firebase::database::DataSnapshot > > result;
   firebase::Future< firebase::database::DataSnapshot > *_swig_go_result;
@@ -4285,7 +4318,7 @@ firebase::Future< firebase::database::DataSnapshot > *_wrap_DatabaseReference_Ge
 }
 
 
-void _wrap_DatabaseReference_AddValueListener_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, firebase::database::ValueListener *_swig_go_1) {
+void _wrap_DatabaseReference_AddValueListener_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, firebase::database::ValueListener *_swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::database::ValueListener *arg2 = (firebase::database::ValueListener *) 0 ;
   
@@ -4298,7 +4331,7 @@ void _wrap_DatabaseReference_AddValueListener_firebase_e442d670bd0d5df6(firebase
 }
 
 
-void _wrap_DatabaseReference_RemoveValueListener_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, firebase::database::ValueListener *_swig_go_1) {
+void _wrap_DatabaseReference_RemoveValueListener_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, firebase::database::ValueListener *_swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::database::ValueListener *arg2 = (firebase::database::ValueListener *) 0 ;
   
@@ -4311,7 +4344,7 @@ void _wrap_DatabaseReference_RemoveValueListener_firebase_e442d670bd0d5df6(fireb
 }
 
 
-void _wrap_DatabaseReference_RemoveAllValueListeners_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+void _wrap_DatabaseReference_RemoveAllValueListeners_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   
   arg1 = *(firebase::database::DatabaseReference **)&_swig_go_0; 
@@ -4322,7 +4355,7 @@ void _wrap_DatabaseReference_RemoveAllValueListeners_firebase_e442d670bd0d5df6(f
 }
 
 
-void _wrap_DatabaseReference_AddChildListener_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, firebase::database::ChildListener *_swig_go_1) {
+void _wrap_DatabaseReference_AddChildListener_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, firebase::database::ChildListener *_swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::database::ChildListener *arg2 = (firebase::database::ChildListener *) 0 ;
   
@@ -4335,7 +4368,7 @@ void _wrap_DatabaseReference_AddChildListener_firebase_e442d670bd0d5df6(firebase
 }
 
 
-void _wrap_DatabaseReference_RemoveChildListener_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, firebase::database::ChildListener *_swig_go_1) {
+void _wrap_DatabaseReference_RemoveChildListener_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, firebase::database::ChildListener *_swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::database::ChildListener *arg2 = (firebase::database::ChildListener *) 0 ;
   
@@ -4348,7 +4381,7 @@ void _wrap_DatabaseReference_RemoveChildListener_firebase_e442d670bd0d5df6(fireb
 }
 
 
-void _wrap_DatabaseReference_RemoveAllChildListeners_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+void _wrap_DatabaseReference_RemoveAllChildListeners_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   
   arg1 = *(firebase::database::DatabaseReference **)&_swig_go_0; 
@@ -4359,7 +4392,7 @@ void _wrap_DatabaseReference_RemoveAllChildListeners_firebase_e442d670bd0d5df6(f
 }
 
 
-firebase::database::DatabaseReference *_wrap_DatabaseReference_GetReference_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::database::DatabaseReference *_wrap_DatabaseReference_GetReference_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::database::DatabaseReference result;
   firebase::database::DatabaseReference *_swig_go_result;
@@ -4373,7 +4406,7 @@ firebase::database::DatabaseReference *_wrap_DatabaseReference_GetReference_fire
 }
 
 
-void _wrap_DatabaseReference_SetKeepSynchronized_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, bool _swig_go_1) {
+void _wrap_DatabaseReference_SetKeepSynchronized_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, bool _swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   bool arg2 ;
   
@@ -4386,7 +4419,7 @@ void _wrap_DatabaseReference_SetKeepSynchronized_firebase_e442d670bd0d5df6(fireb
 }
 
 
-firebase::database::Query *_wrap_DatabaseReference_OrderByChild__SWIG_0_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, _gostring_ _swig_go_1) {
+firebase::database::Query *_wrap_DatabaseReference_OrderByChild__SWIG_0_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   char *arg2 = (char *) 0 ;
   firebase::database::Query result;
@@ -4407,14 +4440,17 @@ firebase::database::Query *_wrap_DatabaseReference_OrderByChild__SWIG_0_firebase
 }
 
 
-firebase::database::Query *_wrap_DatabaseReference_OrderByChild__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, std::string *_swig_go_1) {
+firebase::database::Query *_wrap_DatabaseReference_OrderByChild__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   std::string *arg2 = 0 ;
   firebase::database::Query result;
   firebase::database::Query *_swig_go_result;
   
   arg1 = *(firebase::database::DatabaseReference **)&_swig_go_0; 
-  arg2 = *(std::string **)&_swig_go_1; 
+  
+  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
+  arg2 = &arg2_str;
+  
   
   firebase::database::Query *swig_b0 = (firebase::database::Query *)arg1;
   result = (swig_b0)->OrderByChild((std::string const &)*arg2);
@@ -4423,7 +4459,7 @@ firebase::database::Query *_wrap_DatabaseReference_OrderByChild__SWIG_1_firebase
 }
 
 
-firebase::database::Query *_wrap_DatabaseReference_OrderByKey_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::database::Query *_wrap_DatabaseReference_OrderByKey_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::database::Query result;
   firebase::database::Query *_swig_go_result;
@@ -4437,7 +4473,7 @@ firebase::database::Query *_wrap_DatabaseReference_OrderByKey_firebase_e442d670b
 }
 
 
-firebase::database::Query *_wrap_DatabaseReference_OrderByPriority_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::database::Query *_wrap_DatabaseReference_OrderByPriority_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::database::Query result;
   firebase::database::Query *_swig_go_result;
@@ -4451,7 +4487,7 @@ firebase::database::Query *_wrap_DatabaseReference_OrderByPriority_firebase_e442
 }
 
 
-firebase::database::Query *_wrap_DatabaseReference_OrderByValue_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0) {
+firebase::database::Query *_wrap_DatabaseReference_OrderByValue_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::database::Query result;
   firebase::database::Query *_swig_go_result;
@@ -4465,7 +4501,7 @@ firebase::database::Query *_wrap_DatabaseReference_OrderByValue_firebase_e442d67
 }
 
 
-firebase::database::Query *_wrap_DatabaseReference_StartAt__SWIG_0_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1) {
+firebase::database::Query *_wrap_DatabaseReference_StartAt__SWIG_0_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::Variant arg2 ;
   firebase::Variant *argp2 ;
@@ -4488,7 +4524,7 @@ firebase::database::Query *_wrap_DatabaseReference_StartAt__SWIG_0_firebase_e442
 }
 
 
-firebase::database::Query *_wrap_DatabaseReference_StartAt__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1, _gostring_ _swig_go_2) {
+firebase::database::Query *_wrap_DatabaseReference_StartAt__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1, _gostring_ _swig_go_2) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::Variant arg2 ;
   char *arg3 = (char *) 0 ;
@@ -4518,7 +4554,7 @@ firebase::database::Query *_wrap_DatabaseReference_StartAt__SWIG_1_firebase_e442
 }
 
 
-firebase::database::Query *_wrap_DatabaseReference_EndAt__SWIG_0_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1) {
+firebase::database::Query *_wrap_DatabaseReference_EndAt__SWIG_0_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::Variant arg2 ;
   firebase::Variant *argp2 ;
@@ -4541,7 +4577,7 @@ firebase::database::Query *_wrap_DatabaseReference_EndAt__SWIG_0_firebase_e442d6
 }
 
 
-firebase::database::Query *_wrap_DatabaseReference_EndAt__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1, _gostring_ _swig_go_2) {
+firebase::database::Query *_wrap_DatabaseReference_EndAt__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1, _gostring_ _swig_go_2) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::Variant arg2 ;
   char *arg3 = (char *) 0 ;
@@ -4571,7 +4607,7 @@ firebase::database::Query *_wrap_DatabaseReference_EndAt__SWIG_1_firebase_e442d6
 }
 
 
-firebase::database::Query *_wrap_DatabaseReference_EqualTo__SWIG_0_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1) {
+firebase::database::Query *_wrap_DatabaseReference_EqualTo__SWIG_0_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::Variant arg2 ;
   firebase::Variant *argp2 ;
@@ -4594,7 +4630,7 @@ firebase::database::Query *_wrap_DatabaseReference_EqualTo__SWIG_0_firebase_e442
 }
 
 
-firebase::database::Query *_wrap_DatabaseReference_EqualTo__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1, _gostring_ _swig_go_2) {
+firebase::database::Query *_wrap_DatabaseReference_EqualTo__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, firebase::Variant *_swig_go_1, _gostring_ _swig_go_2) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   firebase::Variant arg2 ;
   char *arg3 = (char *) 0 ;
@@ -4624,7 +4660,7 @@ firebase::database::Query *_wrap_DatabaseReference_EqualTo__SWIG_1_firebase_e442
 }
 
 
-firebase::database::Query *_wrap_DatabaseReference_LimitToFirst_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, long long _swig_go_1) {
+firebase::database::Query *_wrap_DatabaseReference_LimitToFirst_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, long long _swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   size_t arg2 ;
   firebase::database::Query result;
@@ -4640,7 +4676,7 @@ firebase::database::Query *_wrap_DatabaseReference_LimitToFirst_firebase_e442d67
 }
 
 
-firebase::database::Query *_wrap_DatabaseReference_LimitToLast_firebase_e442d670bd0d5df6(firebase::database::DatabaseReference *_swig_go_0, long long _swig_go_1) {
+firebase::database::Query *_wrap_DatabaseReference_LimitToLast_firebase_e8df7fbc24f322ca(firebase::database::DatabaseReference *_swig_go_0, long long _swig_go_1) {
   firebase::database::DatabaseReference *arg1 = (firebase::database::DatabaseReference *) 0 ;
   size_t arg2 ;
   firebase::database::Query result;
@@ -4656,7 +4692,7 @@ firebase::database::Query *_wrap_DatabaseReference_LimitToLast_firebase_e442d670
 }
 
 
-firebase::database::Database *_wrap_Database_GetInstance__SWIG_0_firebase_e442d670bd0d5df6(::firebase::App *_swig_go_0, firebase::InitResult *_swig_go_1) {
+firebase::database::Database *_wrap_Database_GetInstance__SWIG_0_firebase_e8df7fbc24f322ca(::firebase::App *_swig_go_0, firebase::InitResult *_swig_go_1) {
   ::firebase::App *arg1 = (::firebase::App *) 0 ;
   firebase::InitResult *arg2 = (firebase::InitResult *) 0 ;
   firebase::database::Database *result = 0 ;
@@ -4671,7 +4707,7 @@ firebase::database::Database *_wrap_Database_GetInstance__SWIG_0_firebase_e442d6
 }
 
 
-firebase::database::Database *_wrap_Database_GetInstance__SWIG_1_firebase_e442d670bd0d5df6(::firebase::App *_swig_go_0) {
+firebase::database::Database *_wrap_Database_GetInstance__SWIG_1_firebase_e8df7fbc24f322ca(::firebase::App *_swig_go_0) {
   ::firebase::App *arg1 = (::firebase::App *) 0 ;
   firebase::database::Database *result = 0 ;
   firebase::database::Database *_swig_go_result;
@@ -4684,7 +4720,7 @@ firebase::database::Database *_wrap_Database_GetInstance__SWIG_1_firebase_e442d6
 }
 
 
-void _wrap_delete_Database_firebase_e442d670bd0d5df6(firebase::database::Database *_swig_go_0) {
+void _wrap_delete_Database_firebase_e8df7fbc24f322ca(firebase::database::Database *_swig_go_0) {
   firebase::database::Database *arg1 = (firebase::database::Database *) 0 ;
   
   arg1 = *(firebase::database::Database **)&_swig_go_0; 
@@ -4694,7 +4730,7 @@ void _wrap_delete_Database_firebase_e442d670bd0d5df6(firebase::database::Databas
 }
 
 
-firebase::App *_wrap_Database_app_firebase_e442d670bd0d5df6(firebase::database::Database *_swig_go_0) {
+firebase::App *_wrap_Database_app_firebase_e8df7fbc24f322ca(firebase::database::Database *_swig_go_0) {
   firebase::database::Database *arg1 = (firebase::database::Database *) 0 ;
   firebase::App *result = 0 ;
   firebase::App *_swig_go_result;
@@ -4707,7 +4743,7 @@ firebase::App *_wrap_Database_app_firebase_e442d670bd0d5df6(firebase::database::
 }
 
 
-firebase::App *_wrap_Database_GetApp_firebase_e442d670bd0d5df6(firebase::database::Database *_swig_go_0) {
+firebase::App *_wrap_Database_GetApp_firebase_e8df7fbc24f322ca(firebase::database::Database *_swig_go_0) {
   firebase::database::Database *arg1 = (firebase::database::Database *) 0 ;
   firebase::App *result = 0 ;
   firebase::App *_swig_go_result;
@@ -4720,7 +4756,7 @@ firebase::App *_wrap_Database_GetApp_firebase_e442d670bd0d5df6(firebase::databas
 }
 
 
-firebase::database::DatabaseReference *_wrap_Database_GetReference__SWIG_0_firebase_e442d670bd0d5df6(firebase::database::Database *_swig_go_0) {
+firebase::database::DatabaseReference *_wrap_Database_GetReference__SWIG_0_firebase_e8df7fbc24f322ca(firebase::database::Database *_swig_go_0) {
   firebase::database::Database *arg1 = (firebase::database::Database *) 0 ;
   firebase::database::DatabaseReference result;
   firebase::database::DatabaseReference *_swig_go_result;
@@ -4733,7 +4769,7 @@ firebase::database::DatabaseReference *_wrap_Database_GetReference__SWIG_0_fireb
 }
 
 
-firebase::database::DatabaseReference *_wrap_Database_GetReference__SWIG_1_firebase_e442d670bd0d5df6(firebase::database::Database *_swig_go_0, _gostring_ _swig_go_1) {
+firebase::database::DatabaseReference *_wrap_Database_GetReference__SWIG_1_firebase_e8df7fbc24f322ca(firebase::database::Database *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::database::Database *arg1 = (firebase::database::Database *) 0 ;
   char *arg2 = (char *) 0 ;
   firebase::database::DatabaseReference result;
@@ -4753,7 +4789,7 @@ firebase::database::DatabaseReference *_wrap_Database_GetReference__SWIG_1_fireb
 }
 
 
-firebase::database::DatabaseReference *_wrap_Database_GetReferenceFromUrl_firebase_e442d670bd0d5df6(firebase::database::Database *_swig_go_0, _gostring_ _swig_go_1) {
+firebase::database::DatabaseReference *_wrap_Database_GetReferenceFromUrl_firebase_e8df7fbc24f322ca(firebase::database::Database *_swig_go_0, _gostring_ _swig_go_1) {
   firebase::database::Database *arg1 = (firebase::database::Database *) 0 ;
   char *arg2 = (char *) 0 ;
   firebase::database::DatabaseReference result;
@@ -4773,7 +4809,7 @@ firebase::database::DatabaseReference *_wrap_Database_GetReferenceFromUrl_fireba
 }
 
 
-void _wrap_Database_GoOffline_firebase_e442d670bd0d5df6(firebase::database::Database *_swig_go_0) {
+void _wrap_Database_GoOffline_firebase_e8df7fbc24f322ca(firebase::database::Database *_swig_go_0) {
   firebase::database::Database *arg1 = (firebase::database::Database *) 0 ;
   
   arg1 = *(firebase::database::Database **)&_swig_go_0; 
@@ -4783,7 +4819,7 @@ void _wrap_Database_GoOffline_firebase_e442d670bd0d5df6(firebase::database::Data
 }
 
 
-void _wrap_Database_GoOnline_firebase_e442d670bd0d5df6(firebase::database::Database *_swig_go_0) {
+void _wrap_Database_GoOnline_firebase_e8df7fbc24f322ca(firebase::database::Database *_swig_go_0) {
   firebase::database::Database *arg1 = (firebase::database::Database *) 0 ;
   
   arg1 = *(firebase::database::Database **)&_swig_go_0; 
@@ -4793,7 +4829,7 @@ void _wrap_Database_GoOnline_firebase_e442d670bd0d5df6(firebase::database::Datab
 }
 
 
-void _wrap_Database_PurgeOutstandingWrites_firebase_e442d670bd0d5df6(firebase::database::Database *_swig_go_0) {
+void _wrap_Database_PurgeOutstandingWrites_firebase_e8df7fbc24f322ca(firebase::database::Database *_swig_go_0) {
   firebase::database::Database *arg1 = (firebase::database::Database *) 0 ;
   
   arg1 = *(firebase::database::Database **)&_swig_go_0; 
@@ -4803,7 +4839,7 @@ void _wrap_Database_PurgeOutstandingWrites_firebase_e442d670bd0d5df6(firebase::d
 }
 
 
-void _wrap_Database_set_persistence_enabled_firebase_e442d670bd0d5df6(firebase::database::Database *_swig_go_0, bool _swig_go_1) {
+void _wrap_Database_set_persistence_enabled_firebase_e8df7fbc24f322ca(firebase::database::Database *_swig_go_0, bool _swig_go_1) {
   firebase::database::Database *arg1 = (firebase::database::Database *) 0 ;
   bool arg2 ;
   
@@ -4815,7 +4851,7 @@ void _wrap_Database_set_persistence_enabled_firebase_e442d670bd0d5df6(firebase::
 }
 
 
-void _wrap_Database_SetPersistenceEnabled_firebase_e442d670bd0d5df6(firebase::database::Database *_swig_go_0, bool _swig_go_1) {
+void _wrap_Database_SetPersistenceEnabled_firebase_e8df7fbc24f322ca(firebase::database::Database *_swig_go_0, bool _swig_go_1) {
   firebase::database::Database *arg1 = (firebase::database::Database *) 0 ;
   bool arg2 ;
   
