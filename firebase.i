@@ -26,3 +26,7 @@
 // TODO: should fix this
 #define DOXYGEN
 %include "firebase/auth.h"
+
+namespace firebase {
+    %template(AuthUser) Future<auth::User*>;
+}

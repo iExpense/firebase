@@ -101,7 +101,7 @@ class FutureBase {
   /// Completion status of the asynchronous call.
   ///
   /// @deprecated Renamed to status().
-  FIREBASE_DEPRECATED FutureStatus Status() const { return status(); }
+  // FIREBASE_DEPRECATED FutureStatus Status() const { return status(); }
 
   /// Completion status of the asynchronous call.
   FutureStatus status() const;
@@ -110,7 +110,7 @@ class FutureBase {
   /// error code. Otherwise, return value is undefined.
   ///
   /// @deprecated Renamed to error().
-  FIREBASE_DEPRECATED int Error() const { return error(); }
+  // FIREBASE_DEPRECATED int Error() const { return error(); }
 
   /// When status() is kFutureStatusComplete, returns the API-defined
   /// error code. Otherwise, return value is undefined.
